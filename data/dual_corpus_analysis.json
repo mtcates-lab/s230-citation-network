@@ -1,0 +1,57 @@
+{
+  "full_corpus": {
+    "nodes": 70,
+    "edges": 360,
+    "density": 0.0745,
+    "gini": 0.5629,
+    "communities": 5,
+    "top_pagerank": 0.202
+  },
+  "restricted_corpus": {
+    "nodes": 63,
+    "edges": 332,
+    "density": 0.085,
+    "gini": 0.5633,
+    "communities": 4,
+    "top_pagerank": 0.208
+  },
+  "pagerank_kendall_tau": 0.9345,
+  "community_nmi": 0.4238,
+  "excluded_cases": [
+    {
+      "cluster_id": "4660480",
+      "name": "Enigma Software Group USA v. Malwarebytes Inc.",
+      "reason": "non-c1 primary basis"
+    },
+    {
+      "cluster_id": "4720971",
+      "name": "Woodhull Freedom Foundation v. United States",
+      "reason": "non-c1 primary basis"
+    },
+    {
+      "cluster_id": "9403767",
+      "name": "Enigma Software Group USA, LLC v. Malwarebytes, In",
+      "reason": "non-c1 primary basis"
+    },
+    {
+      "cluster_id": "9417992",
+      "name": "G.G. v. Salesforce.com, Inc.",
+      "reason": "non-c1 primary basis"
+    },
+    {
+      "cluster_id": "10290467",
+      "name": "M.H. v. Omegle.com LLC",
+      "reason": "non-c1 primary basis"
+    },
+    {
+      "cluster_id": "10298359",
+      "name": "A. B. v. Salesforce",
+      "reason": "non-c1 primary basis"
+    },
+    {
+      "cluster_id": "10334609",
+      "name": "Doe v. Grindr Inc.",
+      "reason": "non-c1 primary basis"
+    }
+  ]
+}

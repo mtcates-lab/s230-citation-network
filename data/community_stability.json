@@ -1,0 +1,11 @@
+{
+  "n_runs": 100,
+  "mean_nmi": 0.6855,
+  "std_nmi": 0.1148,
+  "min_nmi": 0.3478,
+  "max_nmi": 1.0,
+  "mean_communities": 6.2,
+  "min_communities": 5,
+  "max_communities": 8,
+  "std_communities": 0.66
+}

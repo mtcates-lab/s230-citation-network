@@ -1,0 +1,164 @@
+{
+  "overall_recall": 1.0,
+  "wilson_ci_95": [
+    0.9595,
+    1
+  ],
+  "total_cited": 91,
+  "total_in_corpus": 91,
+  "case_results": [
+    {
+      "cluster_id": 2996653,
+      "case_name": "Does 1-46, John v. GTE Corporation",
+      "period": "1997-2005",
+      "s230_cases_cited": 4,
+      "in_corpus": 4,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 748185,
+      "case_name": "Kenneth M. Zeran v. America Online, Incorporated",
+      "period": "1997-2005",
+      "s230_cases_cited": 0,
+      "in_corpus": 0,
+      "recall": null
+    },
+    {
+      "cluster_id": 783969,
+      "case_name": "John Doe and Other Members of the Football Team at Illinois ",
+      "period": "1997-2005",
+      "s230_cases_cited": 4,
+      "in_corpus": 4,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 780720,
+      "case_name": "John Green v. America Online (Aol) John Does 1 & 2",
+      "period": "1997-2005",
+      "s230_cases_cited": 2,
+      "in_corpus": 2,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 3048873,
+      "case_name": "Perfect 10 v. Ccbill LLC",
+      "period": "2006-2010",
+      "s230_cases_cited": 5,
+      "in_corpus": 5,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 152236,
+      "case_name": "Johnson v. Arden",
+      "period": "2006-2010",
+      "s230_cases_cited": 9,
+      "in_corpus": 9,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 796967,
+      "case_name": "Universal Communication Systems, Inc. v. Lycos, Inc.",
+      "period": "2006-2010",
+      "s230_cases_cited": 5,
+      "in_corpus": 5,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 8442144,
+      "case_name": "Ricci v. Teamsters Union Local 456",
+      "period": "2011-2015",
+      "s230_cases_cited": 5,
+      "in_corpus": 5,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 3158656,
+      "case_name": "Backpage.com, LLC v. Thomas Dart",
+      "period": "2011-2015",
+      "s230_cases_cited": 3,
+      "in_corpus": 3,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 2733753,
+      "case_name": "Jane Doe No. 14 v. Internet Brands, Inc.",
+      "period": "2011-2015",
+      "s230_cases_cited": 3,
+      "in_corpus": 3,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 622029,
+      "case_name": "Fair Housing Council v. Roommate. Com, LLC",
+      "period": "2011-2015",
+      "s230_cases_cited": 1,
+      "in_corpus": 1,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 4776467,
+      "case_name": "East Coast Test Prep LLC v. Allnurses.com, Inc.",
+      "period": "2016-2020",
+      "s230_cases_cited": 7,
+      "in_corpus": 7,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 4637168,
+      "case_name": "Heather Oberdorf v. Amazon.com Inc",
+      "period": "2016-2020",
+      "s230_cases_cited": 9,
+      "in_corpus": 9,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 3192826,
+      "case_name": "Google, Incorporated v. James Hood, III",
+      "period": "2016-2020",
+      "s230_cases_cited": 3,
+      "in_corpus": 3,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 3185333,
+      "case_name": "Jane Doe No. 1 v. Backpage.Com, LLC",
+      "period": "2016-2020",
+      "s230_cases_cited": 9,
+      "in_corpus": 9,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 5106244,
+      "case_name": "Karen Hepp v. Facebook",
+      "period": "2021-2025",
+      "s230_cases_cited": 6,
+      "in_corpus": 6,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 9372853,
+      "case_name": "Scott Rigsby v. Godaddy Inc.",
+      "period": "2021-2025",
+      "s230_cases_cited": 9,
+      "in_corpus": 9,
+      "recall": 1.0
+    },
+    {
+      "cluster_id": 10049690,
+      "case_name": "Gonzalez v. Google LLC",
+      "period": "2021-2025",
+      "s230_cases_cited": 0,
+      "in_corpus": 0,
+      "recall": null
+    },
+    {
+      "cluster_id": 4862966,
+      "case_name": "James Domen v. Vimeo, Inc.",
+      "period": "2021-2025",
+      "s230_cases_cited": 7,
+      "in_corpus": 7,
+      "recall": 1.0
+    }
+  ],
+  "missed_cases": []
+}

@@ -1,0 +1,27 @@
+year,n_nodes,n_edges,density,mean_in_degree,top_pagerank,top_pagerank_node,pagerank_gini,n_communities
+2000,2,1,0.5,0.5,0.6491,"Kenneth M. Zeran v. America Online,",0.1491,1
+2001,2,1,0.5,0.5,0.6491,"Kenneth M. Zeran v. America Online,",0.1491,1
+2002,2,1,0.5,0.5,0.6491,"Kenneth M. Zeran v. America Online,",0.1491,1
+2003,7,17,0.4048,2.429,0.3759,"Kenneth M. Zeran v. America Online,",0.3547,1
+2004,7,17,0.4048,2.429,0.3759,"Kenneth M. Zeran v. America Online,",0.3547,1
+2005,7,17,0.4048,2.429,0.3759,"Kenneth M. Zeran v. America Online,",0.3547,1
+2006,10,24,0.2667,2.4,0.3277,"Kenneth M. Zeran v. America Online,",0.4164,2
+2007,15,47,0.2238,3.133,0.2939,"Kenneth M. Zeran v. America Online,",0.4574,3
+2008,20,72,0.1895,3.6,0.2774,"Kenneth M. Zeran v. America Online,",0.4833,3
+2009,25,99,0.165,3.96,0.2611,"Kenneth M. Zeran v. America Online,",0.504,5
+2010,27,117,0.1667,4.333,0.257,"Kenneth M. Zeran v. America Online,",0.5103,4
+2011,27,117,0.1667,4.333,0.257,"Kenneth M. Zeran v. America Online,",0.5103,4
+2012,28,118,0.1561,4.214,0.2526,"Kenneth M. Zeran v. America Online,",0.5136,5
+2013,28,118,0.1561,4.214,0.2526,"Kenneth M. Zeran v. America Online,",0.5136,5
+2014,32,152,0.1532,4.75,0.2432,"Kenneth M. Zeran v. America Online,",0.5217,4
+2015,34,158,0.1408,4.647,0.2401,"Kenneth M. Zeran v. America Online,",0.5264,3
+2016,42,207,0.1202,4.929,0.231,"Kenneth M. Zeran v. America Online,",0.5394,4
+2017,43,211,0.1168,4.907,0.2301,"Kenneth M. Zeran v. America Online,",0.54,5
+2018,44,215,0.1136,4.886,0.2299,"Kenneth M. Zeran v. America Online,",0.5422,5
+2019,51,260,0.102,5.098,0.2223,"Kenneth M. Zeran v. America Online,",0.5523,5
+2020,53,267,0.0969,5.038,0.2211,"Kenneth M. Zeran v. America Online,",0.5533,5
+2021,56,281,0.0912,5.018,0.2181,"Kenneth M. Zeran v. America Online,",0.5561,4
+2022,59,298,0.0871,5.051,0.2154,"Kenneth M. Zeran v. America Online,",0.5593,5
+2023,64,316,0.0784,4.938,0.2096,"Kenneth M. Zeran v. America Online,",0.5612,5
+2024,68,342,0.0751,5.029,0.2048,"Kenneth M. Zeran v. America Online,",0.5606,5
+2025,72,368,0.072,5.111,0.2008,"Kenneth M. Zeran v. America Online,",0.5614,5

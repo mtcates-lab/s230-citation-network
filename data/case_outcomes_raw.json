@@ -1,0 +1,391 @@
+[
+  {
+    "cluster_id": 748185,
+    "case_name": "Zeran v. America Online",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 159327,
+    "case_name": "Ben Ezra, Weinstein & Co. v. America Online",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 780720,
+    "case_name": "Green v. America Online",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 782479,
+    "case_name": "Batzel v. Smith",
+    "outcome": "mixed",
+    "note": "9th Cir. remanded; immunity available in principle (platform_wins on § 230 framework) but factual question remained whether listserv operator was acting within scope of immunity — functionally a remand on immunity, coded mixed because the court did not grant immunity outright and sent back for further proceedings."
+  },
+  {
+    "cluster_id": 474731,
+    "case_name": "Carafano v. Metrosplash.com",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 756696,
+    "case_name": "Does 1-46 v. GTE Corporation",
+    "outcome": "platform_wins",
+    "note": "7th Cir. (Easterbrook, J.) affirmed dismissal; § 230 bars claims against GTE for hosting third-party content."
+  },
+  {
+    "cluster_id": 798590,
+    "case_name": "Doe v. GTE (Illinois Football Team)",
+    "outcome": "platform_wins",
+    "note": "Uncertain — cluster ID 798590 may be a district-level companion or state-court decision in the GTE/Illinois line. If this is the 7th Cir. GTE opinion it is platform_wins; if a distinct district-court case the outcome coding requires verification against the actual opinion. Coded platform_wins with flag."
+  },
+  {
+    "cluster_id": 796967,
+    "case_name": "Universal Communication Systems v. Lycos (1st Cir. No. 06-1826)",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 2745874,
+    "case_name": "Yahoo! Inc. v. La Ligue Contre Le Racisme (9th Cir. en banc 2006)",
+    "outcome": "platform_wins",
+    "note": "En banc 9th Cir. held US court lacked personal jurisdiction to enforce French court order; § 230 was discussed but the primary holding was jurisdictional. Coded platform_wins because § 230 was invoked and the platform prevailed; note that the § 230 analysis was not the sole or primary basis."
+  },
+  {
+    "cluster_id": 774539,
+    "case_name": "Almeida v. Amazon.com",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 2682161,
+    "case_name": "Universal Communication Systems v. Lycos (In Re / companion)",
+    "outcome": "platform_wins",
+    "note": "Appears to be the district-court or related proceeding in the UCS v. Lycos litigation; outcome consistent with 1st Cir. affirmance. Coded platform_wins but verify this cluster is not a duplicate of 796967."
+  },
+  {
+    "cluster_id": 760357,
+    "case_name": "Perfect 10 v. CCBill LLC",
+    "outcome": "mixed",
+    "note": "9th Cir.: § 230 immunity granted for state-law claims; intellectual property exception under § 230(e)(2) applied to IP claims so those were not immunized. Mixed because some claims dismissed under § 230 and others not."
+  },
+  {
+    "cluster_id": 786134,
+    "case_name": "Chicago Lawyers Committee v. Craigslist (7th Cir.)",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 3048691,
+    "case_name": "Chicago Lawyers Committee v. Craigslist (district court)",
+    "outcome": "platform_wins",
+    "note": "District court decision affirmed by 786134; coded platform_wins. Verify this cluster is the N.D. Ill. opinion rather than a duplicate of the 7th Cir. decision."
+  },
+  {
+    "cluster_id": 1301306,
+    "case_name": "Fair Housing Council v. Roommates.com (9th Cir. en banc 2008)",
+    "outcome": "mixed",
+    "note": "Canonical mixed outcome. § 230 immunity denied for Roommate's own questionnaire/dropdown content (platform is ICP for those features); § 230 immunity available for user-generated additional comments. Court remanded on several claims."
+  },
+  {
+    "cluster_id": 547566,
+    "case_name": "Doe v. MySpace",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 1457289,
+    "case_name": "Doe v. SexSearch.com",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 1196509,
+    "case_name": "Barnes v. Yahoo!",
+    "outcome": "mixed",
+    "note": "9th Cir.: § 230 bars negligent undertaking claim premised on Yahoo's role as publisher; but promissory estoppel claim based on Yahoo's own promise (not its publisher function) survives. Textbook mixed outcome."
+  },
+  {
+    "cluster_id": 3043740,
+    "case_name": "Zango v. Kaspersky Lab",
+    "outcome": "platform_wins",
+    "note": "9th Cir.: § 230(c)(2)(B) immunity for filtering software provider. Platform/software vendor wins."
+  },
+  {
+    "cluster_id": 2797529,
+    "case_name": "FTC v. Accusearch",
+    "outcome": "platform_loses",
+    "note": "10th Cir.: Accusearch was ICP for privacy-invasive records it commissioned; § 230 immunity denied. Platform loses."
+  },
+  {
+    "cluster_id": 2975679,
+    "case_name": "Nemet Chevrolet v. Consumeraffairs.com",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 2966338,
+    "case_name": "Johnson v. Arden",
+    "outcome": "platform_wins",
+    "note": "8th Cir.: § 230 bars defamation claims against website operator for third-party content. Uncertain on the precise cluster — coded platform_wins based on 8th Cir. outcome."
+  },
+  {
+    "cluster_id": 3056523,
+    "case_name": "Fair Housing Council v. Roommate.com (9th Cir. 2012)",
+    "outcome": "mixed",
+    "note": "Follow-on 9th Cir. opinion in the Roommates.com litigation after remand; addressed remaining claims. Coded mixed as immunity was granted on some claims and denied on others consistent with the 2008 en banc framework. Verify specific holding of this later panel opinion."
+  },
+  {
+    "cluster_id": 3062354,
+    "case_name": "Klayman v. Zuckerberg",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 3056907,
+    "case_name": "Jones v. Dirty World Entertainment (6th Cir.)",
+    "outcome": "platform_loses",
+    "note": "6th Cir. reversed district court; held Dirty World was ICP because it solicited and selected the defamatory content for publication, so § 230 immunity denied. Platform loses."
+  },
+  {
+    "cluster_id": 3056983,
+    "case_name": "Jones v. Dirty World Entertainment Recordings (companion/district)",
+    "outcome": "platform_loses",
+    "note": "Appears to be the district-court or companion proceeding in Jones v. Dirty World. District court had initially granted immunity; 6th Cir. reversed. If this cluster is the district-court opinion, outcome at that level was platform_wins but appellate holding is platform_loses. Coded platform_loses to reflect controlling appellate outcome. Verify which court's opinion this cluster represents."
+  },
+  {
+    "cluster_id": 3062967,
+    "case_name": "Doe No. 14 v. Internet Brands",
+    "outcome": "platform_loses",
+    "note": "9th Cir.: § 230 does not bar a failure-to-warn claim where the duty to warn arises from the platform's own knowledge of a third-party scheme, not from third-party content. Platform loses on § 230 immunity at the pleading stage."
+  },
+  {
+    "cluster_id": 8442144,
+    "case_name": "Ricci v. Teamsters Union Local 456",
+    "outcome": "platform_wins",
+    "note": "Uncertain — cluster ID 8442144 with this case name is not a well-known § 230 decision in my training data. A Ricci v. Teamsters case sounds like a labor/employment matter. If this is correctly identified as a § 230 case, I cannot verify the outcome with confidence. Coded platform_wins as a placeholder but flagging for mandatory human review before use in analysis."
+  },
+  {
+    "cluster_id": 3065411,
+    "case_name": "Backpage.com v. Dart",
+    "outcome": "platform_wins",
+    "note": "7th Cir. (Posner, J.): § 230 and First Amendment bar Sheriff Dart's pressure campaign against Backpage's credit card processors. Platform wins."
+  },
+  {
+    "cluster_id": 3065412,
+    "case_name": "Doe No. 1 v. Backpage.com (1st Cir.)",
+    "outcome": "platform_wins",
+    "note": "1st Cir.: § 230 bars sex-trafficking civil claims against Backpage. Note: FOSTA-SESTA (2018) subsequently amended § 230(e) to add a sex trafficking exception; this case predates FOSTA and was decided under pre-FOSTA law."
+  },
+  {
+    "cluster_id": 4271244,
+    "case_name": "Google v. Hood (5th Cir.)",
+    "outcome": "platform_wins",
+    "note": "5th Cir.: § 230 and First Amendment bar Mississippi AG subpoena targeting Google's content decisions. Platform wins."
+  },
+  {
+    "cluster_id": 4044307,
+    "case_name": "O'Kroley v. Fastcase",
+    "outcome": "platform_wins",
+    "note": "6th Cir.: § 230 bars claims against legal research platform for third-party case content. Uncertain on precise holding details; coded platform_wins based on reported outcome."
+  },
+  {
+    "cluster_id": 4271245,
+    "case_name": "Kimzey v. Yelp!",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 4320492,
+    "case_name": "FTC v. LeadClick Media (2d Cir.)",
+    "outcome": "platform_loses",
+    "note": "2d Cir.: LeadClick was ICP for deceptive content it materially contributed to developing; § 230 immunity denied. Platform loses."
+  },
+  {
+    "cluster_id": 4399671,
+    "case_name": "FTC v. LeadClick Media (district court)",
+    "outcome": "platform_loses",
+    "note": "District court opinion in the LeadClick litigation, affirmed by 2d Cir. (cluster 4320492). Coded platform_loses consistent with appellate outcome. Verify which court's opinion this cluster represents."
+  },
+  {
+    "cluster_id": 4320543,
+    "case_name": "General Steel Domestic Sales v. Chumley",
+    "outcome": "platform_wins",
+    "note": "10th Cir.: § 230 bars defamation claims against website operator for user content. Uncertain on some details of this less-prominent case; coded platform_wins based on reported outcome."
+  },
+  {
+    "cluster_id": 4320772,
+    "case_name": "Huon v. Denton (Dirty.com)",
+    "outcome": "platform_wins",
+    "note": "7th Cir.: § 230 bars claims against Dirty World for third-party posts. Distinguishable from Jones v. Dirty World (6th Cir.) on facts. Platform wins."
+  },
+  {
+    "cluster_id": 4399677,
+    "case_name": "Small Justice LLC v. Xcentric Ventures (Ripoff Report)",
+    "outcome": "platform_wins",
+    "note": "1st Cir.: § 230 bars claims against Ripoff Report for third-party content. Platform wins."
+  },
+  {
+    "cluster_id": 4579316,
+    "case_name": "Bennett v. Google",
+    "outcome": "platform_wins",
+    "note": "D.C. Cir.: § 230 bars defamation claims against Google for search results / third-party content. Platform wins."
+  },
+  {
+    "cluster_id": 4579328,
+    "case_name": "Homeaway.com v. City of Santa Monica",
+    "outcome": "platform_wins",
+    "note": "9th Cir.: § 230 bars city ordinance that would hold HomeAway liable for hosting short-term rental listings. Platform wins on § 230 preemption of city law."
+  },
+  {
+    "cluster_id": 4660478,
+    "case_name": "Erie Insurance v. Amazon.com",
+    "outcome": "platform_wins",
+    "note": "4th Cir.: § 230 bars products-liability-adjacent claims against Amazon for third-party seller listing. Platform wins. Note: there is a circuit split on Amazon products liability under § 230; this is the 4th Cir. side favoring immunity."
+  },
+  {
+    "cluster_id": 4660480,
+    "case_name": "Enigma Software Group v. Malwarebytes (9th Cir. 2019)",
+    "outcome": "platform_loses",
+    "note": "9th Cir.: Reversed district court's grant of § 230(c)(2)(B) immunity to Malwarebytes; held § 230(c)(2)(B) does not immunize anticompetitive blocking. Platform loses at this appellate stage (case remanded)."
+  },
+  {
+    "cluster_id": 4720963,
+    "case_name": "Marshall's Locksmith Service v. Google",
+    "outcome": "platform_wins",
+    "note": "D.C. Cir.: § 230 bars antitrust/unfair competition claims against Google for search result ranking. Platform wins."
+  },
+  {
+    "cluster_id": 4720971,
+    "case_name": "Woodhull Freedom Foundation v. United States",
+    "outcome": "mixed",
+    "note": "D.C. Cir.: Constitutional challenge to FOSTA-SESTA, which amended § 230(e). Court upheld FOSTA on some grounds and vacated/remanded on others. This is a challenge to the statute itself rather than an immunity determination, so outcome coding is inherently mixed and somewhat atypical for this variable. Flagged for possible exclusion or reclassification as a 'scope/validity' case rather than an immunity case."
+  },
+  {
+    "cluster_id": 4720972,
+    "case_name": "Oberdorf v. Amazon.com (3d Cir.)",
+    "outcome": "platform_loses",
+    "note": "3d Cir. en banc: § 230 does not bar strict products liability claim against Amazon as a seller in the stream of commerce for third-party marketplace products. Platform loses. This is the major 3d Cir. case on the Amazon products liability split."
+  },
+  {
+    "cluster_id": 4800477,
+    "case_name": "Force v. Facebook (2d Cir.)",
+    "outcome": "platform_wins"
+  },
+  {
+    "cluster_id": 4800478,
+    "case_name": "Dyroff v. Ultimate Software Group (9th Cir.)",
+    "outcome": "platform_wins",
+    "note": "9th Cir.: § 230 bars claims against website operator whose recommendation algorithm connected plaintiff's son with drug dealer. Platform wins; algorithmic recommendations are publisher functions."
+  },
+  {
+    "cluster_id": 4880016,
+    "case_name": "Lemmon v. Snap (9th Cir.)",
+    "outcome": "platform_loses",
+    "note": "9th Cir.: § 230 does not bar negligent design claim against Snap for Speed Filter feature; duty arises from Snap's own product design, not from third-party content. Platform loses."
+  },
+  {
+    "cluster_id": 4880017,
+    "case_name": "East Coast Test Prep v. Allnurses.com (8th Cir.)",
+    "outcome": "platform_wins",
+    "note": "8th Cir.: § 230 bars claims against online forum for third-party posts. Platform wins. Uncertain on precise details of this less-prominent case; coded platform_wins based on reported outcome."
+  },
+  {
+    "cluster_id": 4880018,
+    "case_name": "Domen v. Vimeo (2d Cir.)",
+    "outcome": "platform_wins",
+    "note": "2d Cir.: § 230 bars claims against Vimeo for removing conversion therapy content; removal is a publisher decision immunized under § 230(c)(1) and/or (c)(2)."
+  },
+  {
+    "cluster_id": 4880019,
+    "case_name": "Hepp v. Facebook (3d Cir.)",
+    "outcome": "mixed",
+    "note": "3d Cir.: § 230 bars most claims; right-of-publicity claim under federal law survives because § 230(e)(3) does not preempt federal law claims (only state law inconsistent with § 230). Mixed: most claims dismissed, one survives."
+  },
+  {
+    "cluster_id": 4894598,
+    "case_name": "Monsarrat v. Newman",
+    "outcome": "platform_wins",
+    "note": "1st Cir.: § 230 bars defamation claims against website operator. Platform wins. Less prominent case; coded based on reported outcome."
+  },
+  {
+    "cluster_id": 9390127,
+    "case_name": "Doe v. Reddit (9th Cir.)",
+    "outcome": "platform_wins",
+    "note": "9th Cir.: § 230 bars FOSTA-based sex trafficking civil claims against Reddit. Platform wins. Note: FOSTA's § 230(e)(5) exception did not apply on the facts as pleaded."
+  },
+  {
+    "cluster_id": 9390128,
+    "case_name": "Henderson v. The Source for Public Data",
+    "outcome": "platform_wins",
+    "note": "4th Cir.: § 230 bars FCRA-adjacent claims against data aggregator for third-party public records. Uncertain — there is a question whether this involves § 230 or FCRA's own preemption provisions. Coded platform_wins with flag for review."
+  },
+  {
+    "cluster_id": 9390129,
+    "case_name": "Rigsby v. GoDaddy",
+    "outcome": "platform_wins",
+    "note": "9th Cir.: § 230 bars claims against domain registrar for hosting third-party website content. Platform wins. Less prominent case; coded based on reported outcome."
+  },
+  {
+    "cluster_id": 10049690,
+    "case_name": "Gonzalez v. Google LLC (9th Cir.)",
+    "outcome": "platform_wins",
+    "note": "9th Cir. held § 230 bars the plaintiffs' claims; SCOTUS (2023) vacated and remanded with instructions to reconsider in light of Twitter v. Taamneh, where the Court found no ATA liability. On remand the practical outcome favors Google. Coded platform_wins reflecting the controlling appellate outcome. Note: SCOTUS expressly declined to rule on § 230's scope in its 2023 opinion."
+  },
+  {
+    "cluster_id": 9403767,
+    "case_name": "Enigma Software Group v. Malwarebytes (9th Cir. 2023)",
+    "outcome": "platform_loses",
+    "note": "9th Cir. 2023 (on remand from SCOTUS cert denial and further proceedings): Affirmed that § 230(c)(2)(B) does not immunize Malwarebytes' anticompetitive blocking. Platform loses. Verify whether this cluster is the 2023 opinion or a different stage of the litigation."
+  },
+  {
+    "cluster_id": 9417992,
+    "case_name": "G.G. v. Salesforce.com (7th Cir.)",
+    "outcome": "platform_loses",
+    "note": "7th Cir.: § 230 does not bar TVPRA sex trafficking claims against Salesforce for providing services to Backpage; court held Salesforce could qualify as a knowing beneficiary. Platform loses on § 230 immunity. Significant FOSTA-era decision."
+  },
+  {
+    "cluster_id": 9453171,
+    "case_name": "Doe v. Snap (5th Cir.)",
+    "outcome": "platform_loses",
+    "note": "5th Cir.: § 230 does not bar negligent design claims against Snap arising from the platform's own product features (Quick Add, location features) that facilitated child sexual abuse. Platform loses. Consistent with Lemmon v. Snap in the 9th Cir."
+  },
+  {
+    "cluster_id": 10082197,
+    "case_name": "Anderson v. TikTok (3d Cir.)",
+    "outcome": "platform_loses",
+    "note": "3d Cir. 2024: § 230 does not bar claims arising from TikTok's algorithmic recommendations; held that TikTok's recommendation algorithm constitutes TikTok's own expressive activity (as ICP), not third-party content. Platform loses. This is the major 2024 algorithm ruling creating a circuit split with Dyroff (9th Cir.)."
+  },
+  {
+    "cluster_id": 10298359,
+    "case_name": "A.B. v. Salesforce (5th Cir.)",
+    "outcome": "platform_loses",
+    "note": "5th Cir.: § 230 does not bar TVPRA claims against Salesforce for providing services to Backpage. Platform loses. Consistent with G.G. v. Salesforce (7th Cir.). Uncertain whether this cluster is the 5th Cir. opinion or a district-court opinion; coded platform_loses based on reported appellate outcome."
+  },
+  {
+    "cluster_id": 10327795,
+    "case_name": "M.P. v. Meta Platforms",
+    "outcome": "platform_loses",
+    "note": "Recent decision (likely district or circuit level, 2023-2024) in CSAM/child safety litigation against Meta. § 230 immunity denied on product design / negligence per se theory. Uncertain on which court's opinion this cluster represents and the precise holding. Coded platform_loses based on reported outcomes in the Meta child safety litigation wave. Flagged for mandatory human review."
+  },
+  {
+    "cluster_id": 10334609,
+    "case_name": "Doe v. Grindr",
+    "outcome": "platform_loses",
+    "note": "Recent decision in child safety / sex trafficking litigation against Grindr. § 230 immunity denied on FOSTA/TVPRA or design defect grounds. Uncertain on precise court and holding. Coded platform_loses based on reported outcomes in the Grindr litigation. Flagged for mandatory human review."
+  },
+  {
+    "cluster_id": 10290467,
+    "case_name": "M.H. v. Omegle.com",
+    "outcome": "platform_loses",
+    "note": "District court (D. Or.): § 230 does not bar negligent design claims against Omegle arising from its random video-chat feature that facilitated child abuse. Platform loses. Case settled after district court ruling. Flagged: verify whether this cluster is the district court or a circuit opinion."
+  },
+  {
+    "cluster_id": 10657265,
+    "case_name": "United States v. EZ Lynk",
+    "outcome": "platform_wins",
+    "note": "Uncertain — EZ Lynk is known primarily as an emissions-defeat device case (EPA enforcement), not a § 230 case. If § 230 was raised as a defense in this criminal/regulatory context, the § 230(e)(1) federal criminal law exception would bar the defense and the platform would lose on § 230 grounds. Cannot verify this cluster's § 230 relevance or outcome with confidence. Coded platform_wins as placeholder but flagged for mandatory human review — this case may not belong in the corpus."
+  },
+  {
+    "cluster_id": 4660481,
+    "case_name": "Davison v. Randall",
+    "outcome": "platform_wins",
+    "note": "EXCLUDE or reclassify — Davison v. Randall (4th Cir. 2019) is a First Amendment public forum / government official social media case. It does not apply § 230 immunity. Under the research design's Pattern 8 exclusion criteria, this case should be excluded from the § 230 corpus. Coded platform_wins as a placeholder only; recommend exclusion from corpus."
+  },
+  {
+    "cluster_id": 3065000,
+    "case_name": "Doe v. MySpace (duplicate candidate)",
+    "outcome": "platform_wins",
+    "note": "EXCLUDE if duplicate of cluster 547566. If this is a distinct district-court opinion in the same litigation, it is a companion proceeding and should be flagged for deduplication review. The appellate holding in the MySpace litigation is platform_wins. Do not include as a separate node if it is the same case as 547566."
+  }
+]

@@ -1,0 +1,12 @@
+.DS_Store
+.env
+API-Token
+venv/
+__pycache__/
+*.pyc
+data/.DS_Store
+for
+import
+raw_data/s230_raw_*.json
+raw_data/s230_cleaned_*.json
+raw_data/s230_flagged_*.csv

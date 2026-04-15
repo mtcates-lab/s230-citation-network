@@ -1,0 +1,43 @@
+{
+  "baseline_edges": 360,
+  "baseline_nodes": 70,
+  "trials_per_condition": 20,
+  "results": {
+    "0.1": {
+      "removal_fraction": 0.1,
+      "n_trials": 20,
+      "mean_kendall_tau": 0.9528,
+      "std_kendall_tau": 0.0234,
+      "mean_community_nmi": 0.547,
+      "std_community_nmi": 0.108,
+      "mean_top10_overlap": 9.3,
+      "top1_stability_rate": 0.95,
+      "pagerank_verdict": "STABLE",
+      "community_verdict": "MODERATELY STABLE"
+    },
+    "0.2": {
+      "removal_fraction": 0.2,
+      "n_trials": 20,
+      "mean_kendall_tau": 0.9278,
+      "std_kendall_tau": 0.0263,
+      "mean_community_nmi": 0.4705,
+      "std_community_nmi": 0.0564,
+      "mean_top10_overlap": 9.25,
+      "top1_stability_rate": 0.95,
+      "pagerank_verdict": "STABLE",
+      "community_verdict": "UNSTABLE"
+    },
+    "0.3": {
+      "removal_fraction": 0.3,
+      "n_trials": 20,
+      "mean_kendall_tau": 0.9007,
+      "std_kendall_tau": 0.0243,
+      "mean_community_nmi": 0.4434,
+      "std_community_nmi": 0.0931,
+      "mean_top10_overlap": 9.15,
+      "top1_stability_rate": 1.0,
+      "pagerank_verdict": "STABLE",
+      "community_verdict": "UNSTABLE"
+    }
+  }
+}
