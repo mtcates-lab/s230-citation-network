@@ -1,0 +1,71 @@
+node_id,case_name,court,date,url,pagerank,in_degree,betweenness,community
+748185,"Kenneth M. Zeran v. America Online, Incorporated",ca4,1997-11-12,https://courtlistener.com/opinion/748185/kenneth-m-zeran-v-america-online-incorporated/,0.202011,42,0.0,0
+159327,"Ben Ezra, Weinstein, & Co. v. America Online Inc.",ca10,2000-03-14,https://courtlistener.com/opinion/159327/ben-ezra-weinstein-co-v-america-online-inc/,0.095605,19,0.0,1
+782479,"Ellen L. Batzel, a Citizen of the State of California v. Robert Smith, a Citizen of the State of North Carolina Netherlands Museums Association, an Entity of Unknown Form Mosler, Inc., a Delaware Corporation With Its Principal Place of Business in Ohio, and Ton Cremers, a Citizen or Subject of the Netherlands, Ellen L. Batzel, a Citizen of the State of California v. Robert Smith, a Citizen of the State of North Carolina Netherlands Museums Association, an Entity of Unknown Form Ton Cremers, a Citizen or Subject of the Netherlands Mosler, Inc., a Delaware Corporation With Its Principal Place of Business in Ohio",ca9,2003-06-24,https://courtlistener.com/opinion/782479/ellen-l-batzel-a-citizen-of-the-state-of-california-v-robert-smith-a/,0.060476,24,0.001839,1
+780720,John Green v. America Online (Aol) John Does 1 & 2,ca3,2003-01-16,https://courtlistener.com/opinion/780720/john-green-v-america-online-aol-john-does-1-2/,0.050126,22,0.000603,1
+1301306,"Fair Housing Coun., San Fernando v. Roommates. Com",ca9,2008-04-03,https://courtlistener.com/opinion/1301306/fair-housing-coun-san-fernando-v-roommates-com/,0.040755,30,0.019265,3
+8437677,"Carafano v. Metrosplash.com, Inc.",ca9,2003-08-13,https://courtlistener.com/opinion/8437677/carafano-v-metrosplashcom-inc/,0.03933,20,0.002858,1
+783969,John Doe and Other Members of the Football Team at Illinois State University v. Gte Corporation and Genuity Inc.,ca7,2003-10-21,https://courtlistener.com/opinion/783969/john-doe-and-other-members-of-the-football-team-at-illinois-state/,0.030859,12,0.002156,1
+1193922,"Chicago Lawyers' Committee for Civil Rights Under Law, Inc. v. Craigslist, Inc.",ca7,2008-03-14,https://courtlistener.com/opinion/1193922/chicago-lawyers-committee-for-civil-rights-under-law-inc-v-craigslist/,0.027143,17,0.005193,3
+796967,"Universal Communication Systems, Inc. v. Lycos, Inc.",ca1,2007-02-23,https://courtlistener.com/opinion/796967/no-06-1826/,0.026434,17,0.004415,1
+1196509,"Barnes v. Yahoo!, Inc.",ca9,2009-06-22,https://courtlistener.com/opinion/1196509/barnes-v-yahoo-inc/,0.024394,18,0.006852,2
+61739,"Doe v. MySpace, Inc.",ca5,2008-05-16,https://courtlistener.com/opinion/61739/doe-v-myspace-inc/,0.024087,14,0.002153,2
+1031139,"Nemet Chevrolet, Ltd. v. Consumeraffairs. Com, Inc.",ca4,2009-12-29,https://courtlistener.com/opinion/1031139/nemet-chevrolet-ltd-v-consumeraffairs-com-inc/,0.015709,13,0.005937,0
+3185333,"Jane Doe No. 1 v. Backpage.Com, LLC",ca1,2016-03-14,https://courtlistener.com/opinion/3185333/jane-doe-no-1-v-backpagecom-llc/,0.01371,11,0.007908,2
+77393,"Thais Cardoso Almeida v. Amazon.com, Inc.",ca11,2006-07-18,https://courtlistener.com/opinion/77393/thais-cardoso-almeida-v-amazoncom-inc/,0.013191,12,0.001719,1
+4255700,Douglas Kimzey v. Yelp!,ca9,2016-09-12,https://courtlistener.com/opinion/4255700/douglas-kimzey-v-yelp/,0.012471,8,0.01387,0
+2678314,Larry Klayman v. Mark Zuckerberg,cadc,2014-06-13,https://courtlistener.com/opinion/2678314/larry-klayman-v-mark-zuckerberg/,0.011234,8,0.00366,0
+2678463,Jones v. Dirty World Entertainment Recordings LLC,ca6,2014-06-16,https://courtlistener.com/opinion/2678463/jones-v-dirty-world-entertainment-recordings-llc/,0.010384,8,0.0145,3
+1459477,"Zango, Inc. v. Kaspersky Lab, Inc.",ca9,2009-06-25,https://courtlistener.com/opinion/1459477/zango-inc-v-kaspersky-lab-inc/,0.010344,4,0.002493,3
+4660480,Enigma Software Group USA v. Malwarebytes Inc.,ca9,2019-09-12,https://courtlistener.com/opinion/4660480/enigma-software-group-usa-v-malwarebytes-inc/,0.00931,2,0.003235,0
+172353,Federal Trade Commission v. Accusearch Inc.,ca10,2009-06-29,https://courtlistener.com/opinion/172353/federal-trade-commission-v-accusearch-inc/,0.009264,6,0.001072,3
+4317192,"General Steel Domestic Sales, L.L.C. v. Chumley",ca10,2016-11-01,https://courtlistener.com/opinion/4317192/general-steel-domestic-sales-llc-v-chumley/,0.00868,1,0.0006,0
+4649769,Kristanalea Dyroff v. the Ultimate Software Group,ca9,2019-08-20,https://courtlistener.com/opinion/4649769/kristanalea-dyroff-v-the-ultimate-software-group/,0.008454,5,0.000294,2
+8442958,"Federal Trade Commission v. LeadClick Media, LLC",ca2,2016-09-23,https://courtlistener.com/opinion/8442958/federal-trade-commission-v-leadclick-media-llc/,0.008425,7,0.00739,0
+4880016,"Carly Lemmon v. Snap, Inc.",ca9,2021-05-04,https://courtlistener.com/opinion/4880016/carly-lemmon-v-snap-inc/,0.007518,3,0.003902,2
+3158656,"Backpage.com, LLC v. Thomas Dart",ca7,2015-11-30,https://courtlistener.com/opinion/3158656/backpagecom-llc-v-thomas-dart/,0.007368,2,0.0,2
+152236,Johnson v. Arden,ca8,2010-08-04,https://courtlistener.com/opinion/152236/johnson-v-arden/,0.007003,4,0.00076,1
+4644216,"Force v. Facebook, Inc.",ca2,2019-07-31,https://courtlistener.com/opinion/4644216/force-v-facebook-inc/,0.006842,4,0.005867,0
+4627311,"Marshall's Locksmith Serv. Inc. v. Google, LLC",cadc,2019-06-07,https://courtlistener.com/opinion/4627311/marshalls-locksmith-serv-inc-v-google-llc/,0.006836,4,0.00442,0
+4470612,Dawn Bennett v. Google LLC,cadc,2018-02-23,https://courtlistener.com/opinion/4470612/dawn-bennett-v-google-llc/,0.006627,3,0.001025,0
+4622212,"Erie Insurance Company v. Amazon.com, Inc.",ca4,2019-05-22,https://courtlistener.com/opinion/4622212/erie-insurance-company-v-amazoncom-inc/,0.006225,3,0.000338,0
+10055597,"The Estate of Carson Bride v. Yolo Technologies, Inc.",ca9,2024-08-22,https://courtlistener.com/opinion/10055597/the-estate-of-carson-bride-v-yolo-technologies-inc/,0.006197,2,0.00066,2
+4320772,Meanith Huon v. Nick Denton,ca7,2016-11-14,https://courtlistener.com/opinion/4320772/meanith-huon-v-nick-denton/,0.006164,2,0.00105,3
+8442144,Ricci v. Teamsters Union Local 456,ca2,2015-03-18,https://courtlistener.com/opinion/8442144/ricci-v-teamsters-union-local-456/,0.00613,3,0.000524,0
+10082197,Tawainna Anderson v. TikTok Inc,ca3,2024-08-27,https://courtlistener.com/opinion/10082197/tawainna-anderson-v-tiktok-inc/,0.005759,2,0.006978,2
+1457289,Doe v. SexSearch. Com,ca6,2008-12-30,https://courtlistener.com/opinion/1457289/doe-v-sexsearch-com/,0.00571,2,0.0,3
+10298359,A. B. v. Salesforce,ca5,2024-12-19,https://courtlistener.com/opinion/10298359/a-b-v-salesforce/,0.005662,1,0.004352,2
+10334609,Doe v. Grindr Inc.,ca9,2025-02-18,https://courtlistener.com/opinion/10334609/doe-v-grindr-inc/,0.005525,1,0.004853,2
+4433695,Small Justice LLC v. Xcentric Ventures LLC,ca1,2017-10-11,https://courtlistener.com/opinion/4433695/small-justice-llc-v-xcentric-ventures-llc/,0.005392,1,0.00015,0
+9417992,"G.G. v. Salesforce.com, Inc.",ca7,2023-08-03,https://courtlistener.com/opinion/9417992/gg-v-salesforcecom-inc/,0.005257,1,0.002561,2
+8472803,"Tyrone Henderson, Sr. v. The Source for Public Data, L.P.",ca4,2022-11-03,https://courtlistener.com/opinion/8472803/tyrone-henderson-sr-v-the-source-for-public-data-lp/,0.005224,1,0.000417,0
+9453171,"Doe v. Snap, Inc.",ca5,2023-12-18,https://courtlistener.com/opinion/9453171/doe-v-snap-inc/,0.005212,1,0.0,2
+2996653,"Does 1-46, John v. GTE Corporation",ca7,2003-10-21,https://courtlistener.com/opinion/2996653/does-1-46-john-v-gte-corporation/,0.004722,0,0.0,1
+622029,"Fair Housing Council v. Roommate. Com, LLC",ca9,2012-02-02,https://courtlistener.com/opinion/622029/fair-housing-council-v-roommate-com-llc/,0.004722,0,0.0,3
+4241676,"Colin O'Kroley v. Fastcase, Inc",ca6,2016-07-22,https://courtlistener.com/opinion/4241676/colin-okroley-v-fastcase-inc/,0.004722,0,0.0,3
+2733753,"Jane Doe No. 14 v. Internet Brands, Inc.",ca9,2014-09-17,https://courtlistener.com/opinion/2733753/jane-doe-no-14-v-internet-brands-inc/,0.004722,0,0.0,2
+2982343,Sarah Jones v. Dirty World Entertainment,ca6,2014-06-16,https://courtlistener.com/opinion/2982343/sarah-jones-v-dirty-world-entertainment/,0.004722,0,0.0,1
+3035677,Yahoo Inc. v. La Ligue Contre Le Racisme Et L'Antisemitisme,ca9,2006-01-11,https://courtlistener.com/opinion/3035677/yahoo-inc-v-la-ligue-contre-le-racisme-et-lantisemitisme/,0.004722,0,0.0,1
+3048873,Perfect 10 v. Ccbill LLC,ca9,2007-05-30,https://courtlistener.com/opinion/3048873/perfect-10-v-ccbill-llc/,0.004722,0,0.0,1
+202645,In Re: Universal Com v.,ca1,2007-02-23,https://courtlistener.com/opinion/202645/in-re-universal-com-v/,0.004722,0,0.0,1
+792900,Yahoo! Inc. v. La Ligue Contre Le Racisme Et L'antisemitisme,ca9,2006-01-12,https://courtlistener.com/opinion/792900/yahoo-inc-v-la-ligue-contre-le-racisme-et-lantisemitisme/,0.004722,0,0.0,1
+3048087,"Perfect 10, Inc. v. Ccbill LLC",ca9,2007-03-28,https://courtlistener.com/opinion/3048087/perfect-10-inc-v-ccbill-llc/,0.004722,0,0.0,1
+3049067,Susan Johnson v. Elizabeth Arden,ca8,2010-08-04,https://courtlistener.com/opinion/3049067/susan-johnson-v-elizabeth-arden/,0.004722,0,0.0,1
+3001422,Chicago Lawyers Comm v. Craigslist Inc,ca7,2008-03-14,https://courtlistener.com/opinion/3001422/chicago-lawyers-comm-v-craigslist-inc/,0.004722,0,0.0,1
+3064817,Zango Inc v. Kaspersky Lab Inc,ca9,2009-06-25,https://courtlistener.com/opinion/3064817/zango-inc-v-kaspersky-lab-inc/,0.004722,0,0.0,1
+3192826,"Google, Incorporated v. James Hood, III",ca5,2016-04-08,https://courtlistener.com/opinion/3192826/google-incorporated-v-james-hood-iii/,0.004722,0,0.0,2
+4776467,"East Coast Test Prep LLC v. Allnurses.com, Inc.",ca8,2020-08-19,https://courtlistener.com/opinion/4776467/east-coast-test-prep-llc-v-allnursescom-inc/,0.004722,0,0.0,3
+4862966,"James Domen v. Vimeo, Inc.",ca2,2021-03-11,https://courtlistener.com/opinion/4862966/james-domen-v-vimeo-inc/,0.004722,0,0.0,0
+4637168,Heather Oberdorf v. Amazon.com Inc,ca3,2019-07-03,https://courtlistener.com/opinion/4637168/heather-oberdorf-v-amazoncom-inc/,0.004722,0,0.0,3
+4259325,"FTC v. LeadClick Media, LLC",ca2,2016-09-23,https://courtlistener.com/opinion/4259325/ftc-v-leadclick-media-llc/,0.004722,0,0.0,3
+4603420,"homeaway.com, Inc. v. City of Santa Monica",ca9,2019-03-13,https://courtlistener.com/opinion/4603420/homeawaycom-inc-v-city-of-santa-monica/,0.004722,0,0.0,3
+4720971,Woodhull Freedom Foundation v. United States,cadc,2020-01-24,https://courtlistener.com/opinion/4720971/woodhull-freedom-foundation-v-united-states/,0.004722,0,0.0,2
+5106244,Karen Hepp v. Facebook,ca3,2021-09-23,https://courtlistener.com/opinion/5106244/karen-hepp-v-facebook/,0.004722,0,0.0,1
+9372853,Scott Rigsby v. Godaddy Inc.,ca9,2023-02-03,https://courtlistener.com/opinion/9372853/scott-rigsby-v-godaddy-inc/,0.004722,0,0.0,0
+9403767,"Enigma Software Group USA, LLC v. Malwarebytes, Inc.",ca9,2023-06-02,https://courtlistener.com/opinion/9403767/enigma-software-group-usa-llc-v-malwarebytes-inc/,0.004722,0,0.0,0
+6449991,Monsarrat v. Newman,ca1,2022-03-10,https://courtlistener.com/opinion/6449991/monsarrat-v-newman/,0.004722,0,0.0,0
+9367687,"JANE DOES V. REDDIT, INC.",ca9,2022-10-24,https://courtlistener.com/opinion/9367687/jane-does-v-reddit-inc/,0.004722,0,0.0,2
+10290467,M.H. v. Omegle.com LLC,ca11,2024-12-09,https://courtlistener.com/opinion/10290467/mh-v-omeglecom-llc/,0.004722,0,0.0,4
+10327795,M.P. v. Meta Platforms Inc.,ca4,2025-02-04,https://courtlistener.com/opinion/10327795/mp-v-meta-platforms-inc/,0.004722,0,0.0,0
+10646240,"Doe 1 v. Twitter, Inc.",ca9,2025-08-01,https://courtlistener.com/opinion/10646240/doe-1-v-twitter-inc/,0.004722,0,0.0,2
+10657265,United States v. EZ Lynk,ca2,2025-08-20,https://courtlistener.com/opinion/10657265/united-states-v-ez-lynk/,0.004722,0,0.0,0
