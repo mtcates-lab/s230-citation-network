@@ -166,8 +166,10 @@ Edges in this corpus have no weight attribute at Stage 1. Multi-edges between th
 
 **Edge sources:**
 Edges were constructed from two sources, merged in script 10_merge_edges.py:
-1. The `cites` field returned by the CourtListener API for each opinion (246 edges, 68.4% of final total)
-2. Full-text citation extraction using the eyecite library applied to downloaded opinion text (114 additional edges, 31.6% of final total)
+1. The `cites` field returned by the CourtListener API for each opinion (246 edges)
+2. Full-text citation extraction using the eyecite library applied to downloaded opinion text (114 additional edges)
+
+The CourtListener cites field coverage rate — the fraction of Eyecite-extracted edges already present in the CourtListener cites field — was 68.4%. This is an overlap ratio between two extraction methods, not a recall rate against a ground truth. No ground truth edge set exists for this corpus.
 
 ---
 

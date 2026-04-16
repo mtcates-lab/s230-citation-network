@@ -25,7 +25,6 @@ def build_lookup_from_gexf(G):
                     # Only index standard reporter citations (volume reporter page)
                     parts = cite_str.split()
                     if len(parts) >= 3 and parts[0].isdigit():
-                        # Normalize to "volume reporter page"
                         key = f"{parts[0]} {parts[1]} {parts[2]}"
                         lookup[key] = cid
             except Exception:
@@ -33,27 +32,22 @@ def build_lookup_from_gexf(G):
     return lookup
 
 def main():
-    # Load graph
     G = nx.read_gexf("data/s230_graph.gexf")
     corpus_ids = {int(n) for n in G.nodes()}
     print(f"Graph: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")
 
-    # Build lookup from GEXF citation data
     lookup = build_lookup_from_gexf(G)
     print(f"Citation lookup: {len(lookup)} citation strings indexed")
 
-    # Show sample lookup entries
     sample = list(lookup.items())[:5]
     for k, v in sample:
         print(f"  '{k}' -> {v}")
 
-    # Load existing edges
     existing_edges = set()
     for u, v in G.edges():
         existing_edges.add((int(u), int(v)))
     print(f"\nExisting edges: {len(existing_edges)}")
 
-    # Load eyecite results
     with open("data/eyecite_results.json") as f:
         eyecite_results = json.load(f)
 
@@ -70,7 +64,6 @@ def main():
             continue
 
         for cite_str in case_result.get("corpus_citations", []):
-            # Normalize
             parts = cite_str.strip().lower().split()
             if len(parts) < 3:
                 unresolved += 1
@@ -92,20 +85,24 @@ def main():
     print(f"Already in graph: {len(already_captured)}")
     print(f"Genuinely new edges: {len(truly_new)}")
 
-    # Edge recall rate
+    # CourtListener cites field coverage rate:
+    # Fraction of Eyecite-extracted edges already present in the
+    # CourtListener cites field. This is an overlap ratio between
+    # two extraction methods, not a recall rate against a ground truth.
     total_possible = len(existing_edges) + len(truly_new)
-    recall = len(existing_edges) / total_possible if total_possible > 0 else 0
-    print(f"\nEdge recall rate (CourtListener cites field): {recall:.1%}")
-    print(f"Edge improvement from Eyecite: +{len(truly_new)} edges")
+    coverage_rate = len(existing_edges) / total_possible if total_possible > 0 else 0
+    print(f"\nCourtListener cites field coverage rate: {coverage_rate:.1%}")
+    print(f"  (fraction of Eyecite-extracted edges already in CourtListener cites field)")
+    print(f"  (overlap ratio between two extraction methods, not recall against ground truth)")
+    print(f"Edge improvement from Eyecite full-text extraction: +{len(truly_new)} edges")
 
-    # Save
     output = {
         "stats": {
             "existing_edges": len(existing_edges),
             "eyecite_edges": len(new_edges),
             "already_captured": len(already_captured),
             "genuinely_new": len(truly_new),
-            "edge_recall_rate": round(recall, 4),
+            "courtlistener_cites_field_coverage_rate": round(coverage_rate, 4),
         },
         "truly_new_edges": [
             {"source": s, "target": t} for s, t in sorted(truly_new)
