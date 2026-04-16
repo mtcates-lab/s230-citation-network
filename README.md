@@ -8,12 +8,21 @@ This repository contains the data, code, and documentation for a citation networ
 
 ## Key findings
 
-- Zeran v. AOL (4th Cir. 1997) holds the highest PageRank in every annual snapshot from 1997 through 2025 (PR = 0.202)
-- Five doctrinal communities identified, corresponding to: foundational publisher immunity, early multi-circuit consolidation, platform design liability, ICP-boundary cases, and a FOSTA singleton
-- Platform win rate declined from 83% (2000-2004) to 25% (2025-2029)
-- Mean pairwise Jensen-Shannon divergence between circuits: 0.65 (range 0.43-0.86)
-- DAG hierarchical level correlates with PageRank at Spearman ρ = -0.965 (p < 0.0001)
-- False positive rate in automated CourtListener retrieval: 66.8%
+- Zeran v. AOL (4th Cir. 1997) holds the highest PageRank in every annual 
+  snapshot from 1997 through 2025 (PR = 0.202; α = 0.85)
+- Five structural clusters identified via Leiden community detection on the 
+  undirected citation projection (modularity Q = 0.238; mean NMI = 0.686 
+  across 100 runs), corresponding to recognizable doctrinal traditions 
+  confirmed by legal expert review
+- Platform win rate under § 230 declined from 83% (2000-2004, n=6) to 41% 
+  (2020-2024, n=17); 2025 cases (n=4) show 25% but cell size is too small 
+  for reliable inference
+- Mean pairwise Jensen-Shannon divergence between circuits: 0.65 bits 
+  (base 2; range 0.43-0.86)
+- DAG hierarchical level correlates with PageRank at Spearman ρ = -0.965 
+  (p < 0.0001), consistent with preferential attachment dynamics
+- False positive rate in automated CourtListener retrieval: 66.8% (141/211 
+  candidates excluded after human review)
 
 ## Repository structure
 
