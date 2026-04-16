@@ -76,7 +76,12 @@ def main():
     for c in cases:
         year = int(c["year"]) if c["year"].isdigit() else 0
         if year >= 1997:
-            period = f"{(year // 5) * 5}-{(year // 5) * 5 + 4}"
+            period_start = (year // 5) * 5
+            period_end = min(period_start + 4, 2025)
+            if period_start == period_end:
+                period = f"{period_start}"
+            else:
+                period = f"{period_start}-{period_end}"
             period_outcomes[period][c["outcome"]] += 1
 
     for period in sorted(period_outcomes.keys()):
@@ -84,7 +89,7 @@ def main():
         total = sum(counts.values())
         wins = counts.get("platform_wins", 0)
         win_rate = wins / total * 100
-        print(f"  {period}: {wins}/{total} platform wins ({win_rate:.0f}%)")
+        print(f"  {period}: {wins}/{total} platform wins ({win_rate:.0f}%) [n={total}]")
 
     print(f"\n{'=' * 60}")
     print("INTERPRETATION")
