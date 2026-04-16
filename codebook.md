@@ -1,7 +1,7 @@
-# Codebook: § 230 Citation Network — Stage 1
+# Codebook: § 230 Citation Network
 
 **Project:** Computational Legal Studies: Mapping the Citation Network of US Internet Law
-**Stage:** 1 — § 230(c) Core Corpus
+**Version:** 1.0.0
 **Last updated:** 2026-04-14
 **Corresponds to:** s230_validated_20260411_030728.json, s230_graph.gexf, s230_metrics.csv
 
@@ -9,7 +9,7 @@
 
 ## Overview
 
-This codebook documents every field in the three primary data files for the Stage 1 corpus. Researchers replicating or extending this work should consult this document alongside the research_design.md for the methodological rationale behind inclusion and coding decisions.
+This codebook documents every field in the three primary data files for the § 230 corpus. Researchers replicating or extending this work should consult this document alongside the research_design.md for the methodological rationale behind inclusion and coding decisions.
 
 The three primary files are:
 
@@ -75,7 +75,7 @@ All reporter citations for this case as returned by CourtListener, stored as a J
 *Example:* `"['129 F.3d 327', '10 Communications Reg. (P&F) 456', '1997 WL 701309']"`
 
 **cite_count** (integer)
-Total number of times this case has been cited across all CourtListener-indexed opinions, as reported by the CourtListener API at time of data collection. This is a global citation count, not restricted to the Stage 1 corpus.
+Total number of times this case has been cited across all CourtListener-indexed opinions, as reported by the CourtListener API at time of data collection. This is a global citation count, not restricted to the § 230 corpus.
 *Example:* `299`
 
 ---
@@ -104,7 +104,7 @@ Characterizes the definitiveness of the § 230 holding.
 | `qualified` | Court engaged § 230 but the holding is qualified, remanded, or otherwise not fully resolved |
 
 **publication_status** (string)
-Publication status of the opinion. All cases in the Stage 1 corpus have value `published`. Unpublished opinions are excluded under CBR-002.
+Publication status of the opinion. All cases in the § 230 corpus have value `published`. Unpublished opinions are excluded under CBR-002.
 
 **outcome** (string)
 Result of the § 230 immunity analysis for the platform or interactive computer service defendant.
@@ -162,7 +162,7 @@ Duplicate of the node ID. Present for compatibility with graph visualization too
 
 Each directed edge (u → v) represents a citation from case u to case v — that is, case u cites case v in its opinion. The edge direction follows the convention that authority flows from cited to citing: an edge from u to v means u is a citing case and v is a cited (older) authority.
 
-Edges in this corpus have no weight attribute at Stage 1. Multi-edges between the same pair of nodes are collapsed to a single edge.
+Edges in this corpus have no weight attribute in this corpus. Multi-edges between the same pair of nodes are collapsed to a single edge.
 
 **Edge sources:**
 Edges were constructed from two sources, merged in script 10_merge_edges.py:

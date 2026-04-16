@@ -1,14 +1,14 @@
-# Replication Guide: § 230 Citation Network — Stage 1
+# Replication Guide: § 230 Citation Network
 
 **Project:** Computational Legal Studies: Mapping the Citation Network of US Internet Law
-**Stage:** 1 — § 230(c) Core Corpus
+**Version:** 1.0.0
 **Last updated:** 2026-04-14
 
 ---
 
 ## Overview
 
-This guide describes how to reproduce the Stage 1 § 230 citation network analysis from scratch. It covers environment setup, data collection, corpus validation, graph construction, and all analyses reported in the paper. Scripts are numbered in execution order.
+This guide describes how to reproduce the § 230 citation network analysis from scratch. It covers environment setup, data collection, corpus validation, graph construction, and all analyses reported in the paper. Scripts are numbered in execution order.
 
 Estimated total compute time on a modern laptop: 45-90 minutes, excluding manual corpus validation (which requires prior legal knowledge and could take several hours as there a total of 211 cases were collected).
 

@@ -1,4 +1,4 @@
-# § 230 Citation Network — Stage 1
+# § 230 Citation Network
 
 A computational analysis of the federal appellate citation network for 47 U.S.C. § 230 of the Communications Decency Act, 1997-2025.
 

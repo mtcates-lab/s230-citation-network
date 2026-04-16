@@ -1,20 +1,20 @@
-# Research Design: § 230 Citation Network — Stage 1
+# Research Design: § 230 Citation Network
 
 **Project:** Computational Legal Studies: Mapping the Citation Network of US Internet Law
-**Stage:** 1 — § 230(c) Core Corpus
+**Version:** 1.0.0
 **Last updated:** 2026-04-14
 
 ---
 
 ## 1. Operative Inclusion Criterion
 
-A case is included in the Stage 1 corpus if § 230(c)(1), § 230(c)(2), § 230(f), or § 230(e) are substantively applied in an appellate holding to determine the rights or liabilities of parties as interactive computer services or their users.
+A case is included in the corpus if § 230(c)(1), § 230(c)(2), § 230(f), or § 230(e) are substantively applied in an appellate holding to determine the rights or liabilities of parties as interactive computer services or their users.
 
 All four elements are necessary:
 
 - **§ 230(c), (f), or (e)** — the immunity-operative subsections. Policy findings (§ 230(a)) and congressional purposes (§ 230(b)) alone are not sufficient.
 - **Substantively applied** — the provision must be analyzed, not merely cited for background, definition, or dicta. Block citations without independent analysis do not satisfy this element.
-- **In an appellate holding** — the ruling must issue from a federal circuit court or the Supreme Court. District court analysis is excluded at Stage 1.
+- **In an appellate holding** — the ruling must issue from a federal circuit court or the Supreme Court. District court analysis is excluded in this corpus.
 - **To determine the rights or liabilities of parties** — the § 230 analysis must be dispositive or meaningfully dispositive of the outcome. Alternative-ground applications relegated to dicta are excluded.
 
 **Positive examples:** *Zeran v. AOL* (4th Cir. 1997); *Carafano v. Metrosplash* (9th Cir. 2003); *Fair Housing Council v. Roommates.com* (9th Cir. 2008) (en banc); *Force v. Facebook* (2d Cir. 2020); *Enigma Software Group USA v. Malwarebytes* (9th Cir. 2023).
@@ -23,9 +23,9 @@ All four elements are necessary:
 
 ## 2. Corpus Boundary Decisions
 
-### CBR-001: Court Level — Circuit and Supreme Court Only (Stage 1)
+### CBR-001: Court Level — Circuit and Supreme Court Only
 
-**Decision:** Stage 1 includes only published opinions from the federal circuit courts of appeals and the Supreme Court. District court opinions are excluded.
+**Decision:** This corpus includes only published opinions from the federal circuit courts of appeals and the Supreme Court. District court opinions are excluded.
 
 **Rationale:** Citation in the American common-law system carries hierarchical weight. Circuit opinions bind district courts within the circuit and persuade courts elsewhere; district opinions are neither binding nor uniformly reported. Including district courts would require modeling two qualitatively different node types in the same graph, would introduce CourtListener coverage heterogeneity at the district level, and would complicate interpretation of centrality measures. A circuit-level graph in which every node is a binding precedential act and every edge connects legally equivalent authority types is methodologically cleaner and more interpretable.
 
@@ -49,9 +49,9 @@ All four elements are necessary:
 
 **Decision:** State appellate court opinions are excluded from Stage 1 regardless of whether they substantively apply § 230. Flagged for potential inclusion in Stage 4.
 
-### CBR-005: Edge Typing — Directed, Unweighted at Stage 1
+### CBR-005: Edge Typing — Directed, Unweighted
 
-**Decision:** Edges are directed (citing case → cited case) and unweighted at Stage 1. Multi-edges are collapsed to single edges. The authority-differential weight schema from Coupette et al. (2024) is reserved for Stage 2 analysis.
+**Decision:** Edges are directed (citing case → cited case) and unweighted in this corpus. Multi-edges are collapsed to single edges. The authority-differential weight schema from Coupette et al. (2024) is reserved for Stage 2 analysis.
 
 ---
 
@@ -274,7 +274,7 @@ The following cases are excluded from Stage 1 but flagged for potential inclusio
 
 ### 6.1 Methodological Finding: False Positive Rate in Automated Retrieval
 
-The Stage 1 corpus construction began with automated retrieval from the CourtListener API using queries targeting federal circuit court and Supreme Court opinions citing 47 U.S.C. § 230. The initial retrieval returned 211 candidate cases.
+The corpus construction began with automated retrieval from the CourtListener API using queries targeting federal circuit court and Supreme Court opinions citing 47 U.S.C. § 230. The initial retrieval returned 211 candidate cases.
 
 Each candidate was then subjected to full-text review against the operative inclusion criterion and the ten exclusion patterns. This review was conducted by a human annotator with legal expertise, examining the appellate holding of each case to determine whether § 230(c)(1), § 230(c)(2), § 230(f), or § 230(e) was substantively applied to determine the rights or liabilities of parties.
 
@@ -290,7 +290,7 @@ This false positive rate has three implications:
 
 3. **The second dominant mechanism is the alternative-ground exclusion (Pattern 3).** This is the most legally subtle category: cases where § 230 was genuinely at issue but was not reached by the appellate court. Exclusion requires doctrinal judgment about what constitutes a holding versus dicta, a judgment not reducible to text features.
 
-### 6.2 Corpus Statistics (Stage 1, as of data collection)
+### 6.2 Corpus Statistics (as of data collection)
 
 | Metric | Value |
 |---|---|
@@ -320,7 +320,7 @@ The ten-pattern exclusion taxonomy is a reusable instrument for future empirical
 
 ### 6.5 Future Corpus Evolution Tracking
 
-As the research program advances through Stages 2–5, this section will record the number of cases flagged from Stage 1 exclusions that were subsequently included in later stages, false positive rates at each subsequent stage, any new exclusion patterns identified, and changes to the total corpus size as additional doctrinal areas are added.
+Future citation network analyses extending this corpus to DMCA § 512, First Amendment digital doctrine, and online privacy law may cross-reference this exclusion log to track cases deferred from this corpus.
 
 ---
 
@@ -398,4 +398,4 @@ CourtListener cluster 77393. Confirmed as the same case cited by Ardia (2010) as
 
 ---
 
-*End of research_design.md — Stage 1 active. Last updated: 2026-04-14.*
+*End of research_design.md — Active. Last updated: 2026-04-14.*
