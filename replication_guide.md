@@ -108,7 +108,8 @@ Run the automated flagging script to identify obvious exclusions:
 python3 06_validate_corpus.py
 ```
 
-This script flags cases based on court level, publication status, and name-based heuristics. It does not make final inclusion decisions.
+This script flags cases based on court level, publication status, and name-based heuristics. It does not make final inclusion decisions. The non_s230_indicators list in this script is a pipeline heuristic that may become stale as CourtListener adds new opinions. It is not the authoritative 
+exclusion criterion. All authoritative inclusion and exclusion decisions are documented in research_design.md and the CBL. The script will print a warning to this effect when run.
 
 ### 5.2 Manual review
 

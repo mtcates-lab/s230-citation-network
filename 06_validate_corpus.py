@@ -21,6 +21,18 @@ def flag_suspicious_cases(cases):
         "platform", "immunity", "safe harbor", "intermediary"
     ]
 
+# WARNING: The non_s230_indicators list below is a pipeline heuristic used
+# to flag cases for human review. It is NOT the authoritative exclusion
+# criterion. Authoritative inclusion and exclusion decisions are documented
+# in research_design.md (operative inclusion criterion and ten exclusion
+# patterns) and in the Corpus Boundary Decisions Log (CBL).
+# This list may become stale as new cases are added to CourtListener.
+# Do not use it as a substitute for human review against the CBL.
+print("WARNING: non_s230_indicators is a pipeline heuristic for flagging only.")
+print("Authoritative exclusion decisions are in research_design.md and the CBL.")
+print("Human review against the operative inclusion criterion is required.")
+print()
+
     non_s230_indicators = [
         "packaging corp", "martinez-madera", "holder",
         "ferrell v. united states department of housing",

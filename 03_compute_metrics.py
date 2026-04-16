@@ -22,9 +22,24 @@ def compute_metrics(G):
     betweenness = nx.betweenness_centrality(G, k=50, normalized=True)
 
     print("Computing community detection (Leiden algorithm)...")
+
     import igraph as ig
     import leidenalg
 
+    # Community detection uses Leiden on the undirected projection of the
+    # citation graph. Leiden requires an undirected graph. We project to
+    # undirected by treating citations as co-citation similarity relationships
+    # regardless of direction. This is standard practice in legal citation
+    # network analysis (cf. Fowler & Jeon 2007) and is appropriate here
+    # because the structural communities we seek reflect mutual citation
+    # patterns: cases that draw on the same authorities cluster together,
+    # independent of which case cited which. The limitation is that this
+    # projection does not distinguish between cases that cite each other
+    # versus cases that are merely co-cited by a third case. Directed
+    # community detection algorithms for DAGs exist but lack established
+    # stability benchmarks comparable to Leiden. Community stability is
+    # assessed separately in 11_community_stability.py (mean NMI = 0.686
+    # across 100 runs, seeds 0-99; modularity Q = 0.238).
     nodes = list(G.nodes())
     node_index = {n: i for i, n in enumerate(nodes)}
     ig_edges = [(node_index[u], node_index[v]) for u, v in G.edges()]
@@ -75,6 +90,7 @@ def print_results(df):
         year = str(row["date"])[:4] if row["date"] else "????"
         name = str(row["case_name"])[:45]
         print(f"  {df.index.get_loc(i)+1:<4} {row['pagerank']:<10.6f} {row['in_degree']:<8} {row['community']:<6} {row['court']:<10} {year:<6} {name}")
+
     print("\n" + "=" * 70)
     print("COMMUNITY STRUCTURE")
     print("=" * 70)
