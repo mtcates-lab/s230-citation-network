@@ -1,7 +1,7 @@
 {
   "max_dag_depth": 16,
   "spearman_correlation_level_pagerank": -0.9655,
-  "spearman_pvalue": 0.0,
+  "spearman_pvalue": "< 0.0001",
   "node_levels": [
     {
       "node_id": "748185",
@@ -703,5 +703,10 @@
       "dag_depth": 0,
       "pagerank": 0.004722
     }
-  ]
+  ],
+  "spearman_correlation_level_pagerank_full": -0.9655,
+  "spearman_correlation_level_pagerank_integrated": -0.8399,
+  "n_integrated_nodes": 41,
+  "n_dangling_nodes": 29,
+  "note": "Primary finding is restricted to integrated nodes (in_degree > 0). Full corpus correlation inflated by 29 dangling nodes sharing identical PageRank floor and DAG level."
 }

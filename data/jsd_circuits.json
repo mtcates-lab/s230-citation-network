@@ -252,5 +252,12 @@
       "circuit2": "ca11",
       "jsd_bits": 0.8511
     }
-  ]
+  ],
+  "weighted_mean_pairwise_jsd": 0.645,
+  "small_n_circuits": {
+    "ca8": 3,
+    "ca10": 3,
+    "ca11": 2
+  },
+  "reliability_note": "Pairs involving ca8 (n=3), ca10 (n=3), or ca11 (n=2) carry substantial sampling uncertainty. All most-divergent pairs involve ca11. Weighted mean JSD (0.6450) and unweighted mean (0.6540) differ by 0.009 bits."
 }

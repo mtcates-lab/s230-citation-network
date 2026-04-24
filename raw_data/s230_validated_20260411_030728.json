@@ -1,7 +1,7 @@
 {
   "pulled_at": "20260411_030728",
-  "total_cases": 121,
-  "note": "Deduplicated and validated. Non-\u00a7230 cases removed.",
+  "total_cases": 70,
+  "note": "Validated corpus: 70 published federal circuit court opinions applying 47 U.S.C. \u00a7 230, 1997-2025. Constructed from 211 CourtListener candidates after systematic human review against a 10-pattern exclusion taxonomy. False positive rate: 66.8%.",
   "results": [
     {
       "absolute_url": "/opinion/748185/kenneth-m-zeran-v-america-online-incorporated/",

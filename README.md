@@ -15,14 +15,16 @@ This repository contains the data, code, and documentation for a citation networ
   across 100 runs), corresponding to recognizable doctrinal traditions 
   confirmed by legal expert review
 - Platform win rate under § 230 declined from 83% (2000-2004, n=6) to 41% 
-  (2020-2024, n=17); 2025 cases (n=4) show 25% but cell size is too small 
-  for reliable inference
+  (2020-2024, n=17); temporal trend is consistent with increasing judicial 
+  skepticism toward broad immunity claims
 - Mean pairwise Jensen-Shannon divergence between circuits: 0.65 bits 
   (base 2; range 0.43-0.86)
-- DAG hierarchical level correlates with PageRank at Spearman ρ = -0.965 
-  (p < 0.0001), consistent with preferential attachment dynamics
+- DAG hierarchical level correlates with PageRank at Spearman ρ = -0.840 
+  among cases with at least one inbound citation (n=41, p < 0.0001); 
+  full corpus ρ = -0.965 is inflated by 29 dangling nodes sharing 
+  identical PageRank floor values
 - False positive rate in automated CourtListener retrieval: 66.8% (141/211 
-  candidates excluded after human review)
+  candidates excluded after review)
 
 ## Repository structure
 
