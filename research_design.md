@@ -301,7 +301,7 @@ This false positive rate has three implications:
 | False positive rate | 66.8% |
 | Citation edges (CourtListener cites field) | 246 |
 | Citation edges (after Eyecite full-text extraction) | 360 |
-| Edge recall rate (CourtListener cites field) | 68.4% |
+| Edge recall rate (CourtListener cites field) | 65.0% |
 | Corpus recall rate (stratified sample, n=19) | 100% (95% CI: 0.959, 1.000) |
 | Date of data pull | 2026-04-10 |
 | eyecite version | 2.6.0 |

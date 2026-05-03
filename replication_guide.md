@@ -150,7 +150,7 @@ python3 02_build_graph.py
 
 **Output:** `data/s230_graph.gexf`, `data/s230_graph.graphml`
 
-**Expected result:** 70 nodes, 246 edges, confirmed DAG.
+**Expected result:** 70 nodes, 258 edges, confirmed DAG.
 
 ---
 
@@ -168,7 +168,7 @@ python3 10_merge_edges.py
 
 **Output:** `data/eyecite_results.json`, `data/eyecite_edges.json`, updated graph files
 
-**Expected result:** 360 edges after merge (246 from CourtListener cites field + 114 from Eyecite full-text extraction). Edge recall rate from CourtListener cites field: 68.4%.
+**Expected result:** 360 edges after merge (246 from CourtListener cites field + 114 from Eyecite full-text extraction). Edge recall rate from CourtListener cites field: 65.0%.
 
 ---
 

@@ -4,7 +4,11 @@
     "eyecite_edges": 340,
     "already_captured": 221,
     "genuinely_new": 119,
-    "edge_recall_rate": 0.6844
+    "courtlistener_edge_count": 258,
+    "eyecite_extracted_total": 340,
+    "final_graph_edges": 360,
+    "courtlistener_coverage_rate": 0.65,
+    "coverage_rate_note": "221 of 340 Eyecite-extracted edges were already present in CourtListener cites field. Final graph has 360 edges after node deduplication passes removed some edges from the 377 pre-deduplication total."
   },
   "truly_new_edges": [
     {
