@@ -1,3 +1,19 @@
+import sys
+import os
+
+# PIPELINE GUARD: This script builds the baseline graph from CourtListener edges only.
+# After 10_merge_edges.py has run, the graph file contains eyecite-augmented edges.
+# Running this script after the merge will overwrite the augmented graph.
+# If eyecite_edges.json exists and shows a merged edge count, abort.
+if os.path.exists('data/eyecite_edges.json'):
+    import json
+    with open('data/eyecite_edges.json') as f:
+        stats = json.load(f).get('stats', {})
+    if stats.get('final_graph_edges', 0) > stats.get('courtlistener_edge_count', 0):
+        print('ERROR: Eyecite merge already completed. Do not run 02_build_graph.py after 10_merge_edges.py.')
+        print('Run 03_compute_metrics.py directly.')
+        sys.exit(1)
+
 import json
 import networkx as nx
 import pandas as pd
