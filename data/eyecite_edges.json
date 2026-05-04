@@ -1,14 +1,10 @@
 {
   "stats": {
-    "existing_edges": 258,
-    "eyecite_edges": 340,
-    "already_captured": 221,
-    "genuinely_new": 119,
-    "courtlistener_edge_count": 258,
-    "eyecite_extracted_total": 340,
-    "final_graph_edges": 360,
-    "courtlistener_coverage_rate": 0.65,
-    "coverage_rate_note": "221 of 340 Eyecite-extracted edges were already present in CourtListener cites field. Final graph has 360 edges after node deduplication passes removed some edges from the 377 pre-deduplication total."
+    "existing_edges": 244,
+    "eyecite_edges": 320,
+    "already_captured": 207,
+    "genuinely_new": 113,
+    "courtlistener_cites_field_coverage_rate": 0.6835
   },
   "truly_new_edges": [
     {
@@ -52,15 +48,7 @@
       "target": 8437677
     },
     {
-      "source": 3048087,
-      "target": 8437677
-    },
-    {
       "source": 3048873,
-      "target": 8437677
-    },
-    {
-      "source": 3064672,
       "target": 8437677
     },
     {
@@ -244,10 +232,6 @@
       "target": 782479
     },
     {
-      "source": 8439626,
-      "target": 8437677
-    },
-    {
       "source": 8442958,
       "target": 172353
     },
@@ -372,14 +356,6 @@
       "target": 9453171
     },
     {
-      "source": 10082197,
-      "target": 10049690
-    },
-    {
-      "source": 10290467,
-      "target": 10049690
-    },
-    {
       "source": 10298359,
       "target": 1031139
     },
@@ -458,10 +434,6 @@
     {
       "source": 10646240,
       "target": 4880016
-    },
-    {
-      "source": 10646240,
-      "target": 10049690
     },
     {
       "source": 10646240,

@@ -1,37 +1,41 @@
 {
-  "mutual_information": 0.1511,
-  "normalized_mutual_information": 0.1297,
-  "n_cases": 70,
+  "mutual_information": 0.1551,
+  "normalized_mutual_information": 0.1242,
+  "n_cases": 69,
   "outcome_distribution": {
     "platform_wins": 43,
-    "mixed": 8,
+    "mixed": 7,
     "platform_loses": 19
   },
   "community_outcome_breakdown": {
+    "4": {
+      "platform_wins": 4,
+      "platform_loses": 2,
+      "mixed": 2
+    },
     "0": {
       "platform_wins": 16,
-      "platform_loses": 4
-    },
-    "1": {
-      "platform_wins": 14,
-      "mixed": 4,
-      "platform_loses": 1
+      "mixed": 2,
+      "platform_loses": 2
     },
     "3": {
-      "platform_wins": 7,
-      "mixed": 2,
-      "platform_loses": 4
+      "platform_wins": 6,
+      "platform_loses": 5
     },
     "2": {
-      "platform_wins": 6,
-      "mixed": 2,
-      "platform_loses": 9
+      "mixed": 3,
+      "platform_loses": 6,
+      "platform_wins": 4
     },
-    "4": {
+    "1": {
+      "platform_wins": 13,
+      "platform_loses": 3
+    },
+    "5": {
       "platform_loses": 1
     }
   },
-  "permutation_test_p_value": 0.0061,
+  "permutation_test_p_value": 0.0231,
   "permutation_test_n_permutations": 10000,
   "permutation_test_seed": 42
 }
