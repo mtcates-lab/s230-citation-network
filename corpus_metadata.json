@@ -46,7 +46,7 @@
   "stage": 1,
   "stage_description": "Federal circuit and Supreme Court \u00a7 230 holdings only. Excludes district courts, state courts, DMCA \u00a7 512, First Amendment digital doctrine, and online privacy law.",
   "github_url": "https://github.com/mtcates-lab/s230-citation-network",
-  "zenodo_doi": "10.5281/zenodo.19969094",
+  "zenodo_doi": "10.5281/zenodo.20055182",
   "contact": "mtcates@uga.edu",
   "license_data": "CC BY 4.0",
   "license_code": "MIT",
