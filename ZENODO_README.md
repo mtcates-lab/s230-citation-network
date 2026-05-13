@@ -3,7 +3,7 @@
 
 **Version:** 1.0.0  
 **Date of data collection:** 2026-04-10  
-**Zenodo DOI:** [reserved — fill in after deposit]  
+**Zenodo DOI:** 10.5281/zenodo.20055182  
 **GitHub repository:** https://github.com/mtcates-lab/s230-citation-network  
 **Contact:** mtcates@uga.edu
 
@@ -11,9 +11,9 @@
 
 ## What This Deposit Is
 
-This deposit provides the data and code underlying a computational legal study of Section 230 of the Communications Decency Act (47 U.S.C. § 230) — the federal statute that governs the liability of online platforms for third-party content. The deposit includes a validated corpus of 70 published federal circuit and Supreme Court opinions that substantively applied § 230 immunity doctrine between 1997 and 2025, the citation network constructed from those opinions, all derived network metrics, and the complete analysis pipeline.
+This deposit provides the data and code underlying a computational legal study of Section 230 of the Communications Decency Act (47 U.S.C. § 230) — the federal statute that governs the liability of online platforms for third-party content. The deposit includes a validated corpus of 63 published federal circuit and Supreme Court opinions that substantively applied § 230 immunity doctrine between 1997 and 2025, the citation network constructed from those opinions, all derived network metrics, and the complete analysis pipeline.
 
-The corpus was constructed by retrieving 211 candidate opinions from CourtListener (courtlistener.com) and subjecting each to systematic human review against a documented operative inclusion criterion and a ten-pattern exclusion taxonomy. The false positive rate in automated retrieval was 66.8% — a methodological finding with implications for corpus construction in empirical legal studies.
+The corpus was constructed by retrieving 211 candidate opinions from CourtListener (courtlistener.com) and subjecting each to systematic human review against a documented operative inclusion criterion and a ten-pattern exclusion taxonomy. The false positive rate in automated retrieval was 70.1% — a methodological finding with implications for corpus construction in empirical legal studies.
 
 ---
 
@@ -31,13 +31,13 @@ All four elements are necessary: the immunity-operative subsection must be engag
 |--------|-------|
 | Cases retrieved from CourtListener | 211 |
 | Cases reviewed | 211 |
-| Cases included | 70 |
-| Cases excluded | 141 |
-| False positive rate | 66.8% |
-| Citation edges (CourtListener cites field) | 246 |
-| Citation edges (after eyecite full-text extraction) | 360 |
-| Edge recall rate (CourtListener cites field) | 68.4% |
-| Corpus recall rate (stratified sample, n=19) | 100% (95% CI: 0.960–1.000) |
+| Cases included | 63 |
+| Cases excluded | 148 |
+| False positive rate | 70.1% |
+| Citation edges (CourtListener cites field) | 209 |
+| Citation edges (after eyecite full-text extraction) | 320 |
+| Edge recall rate (CourtListener cites field) | 65.3% |
+| Corpus recall rate (stratified sample, n=20) | 100% (95% CI: 0.942–1.000) |
 | Date range | 1997-11-12 to 2025 |
 | Statute | 47 U.S.C. § 230 |
 
@@ -48,25 +48,29 @@ All four elements are necessary: the immunity-operative subsection must be engag
 ### Core corpus files
 
 **`raw_data/s230_validated_20260411_030728.json`**  
-The validated corpus. 70 cases meeting the operative inclusion criterion, with full CourtListener metadata including case name, citation, court, date filed, docket number, and the CourtListener cites field for each opinion. This is the starting point for all downstream analysis.
+The validated corpus. 63 cases meeting the operative inclusion criterion, with full CourtListener metadata including case name, citation, court, date filed, docket number, and the CourtListener cites field for each opinion. This is the starting point for all downstream analysis.
 
 **`data/s230_graph.gexf`**  
-The citation network in GEXF format. 70 nodes (cases), 360 directed edges (citations), confirmed directed acyclic graph. Compatible with Gephi and networkx.
+The citation network in GEXF format. 63 nodes (cases), 320 directed edges (citations), confirmed directed acyclic graph. Compatible with Gephi and networkx.
 
 **`data/s230_graph.graphml`**  
 The citation network in GraphML format. Identical graph, alternative format for interoperability.
 
+**`data/s230_graph_attributed.gexf`**  
+The citation network in GEXF format with full node attributes (PageRank, community, in-degree, case name, year, court) pre-loaded on each node. Identical graph structure to `s230_graph.gexf`. For direct import into Gephi with metrics pre-loaded.
+
+
 **`data/s230_metrics.csv`**  
-Per-node network metrics for all 70 cases. Columns: cluster_id, case_name, pagerank, in_degree, betweenness_centrality, community_leiden, dag_depth, outcome, circuit, year.
+Per-node network metrics for all 63 cases. Columns: cluster_id, case_name, pagerank, in_degree, betweenness_centrality, community_leiden, dag_depth, outcome, circuit, year.
 
 **`data/case_outcomes_raw.json`**  
-Outcome codings for all 70 cases with annotations. Values: immunity_granted, immunity_denied, immunity_partial.
+Outcome codings for all 63 cases with annotations. Values: immunity_granted, immunity_denied, immunity_partial.
 
 **`data/eyecite_edges.json`**  
 Citation edges extracted by eyecite full-text parsing, including the 119 edges not captured by the CourtListener cites field.
 
 **`data/eyecite_results.json`**  
-Raw eyecite output for all 70 corpus opinions.
+Raw eyecite output for all 63 corpus opinions.
 
 **`data/citation_lookup.json`**  
 Lookup table mapping citation strings to corpus cluster IDs, used for edge resolution.
@@ -129,7 +133,7 @@ All scripts are numbered in execution order. See `replication_guide.md` for full
 
 ## How to Cite This Deposit
 
-> Cates, M. (2026). *Citation Network of Section 230 of the Communications Decency Act: A Validated Corpus of Published Federal Circuit Appellate Holdings, 1997–2025* (Version 1.0.0) [Dataset]. Zenodo. https://doi.org/[DOI to be added]
+> Cates, M. (2026). *Citation Network of Section 230 of the Communications Decency Act: A Validated Corpus of Published Federal Circuit Appellate Holdings, 1997–2025* (Version 1.0.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.20055182
 
 ---
 
@@ -137,7 +141,7 @@ All scripts are numbered in execution order. See `replication_guide.md` for full
 
 For use in papers citing this dataset:
 
-> All data and code supporting this analysis are publicly available at Zenodo (DOI: [to be added]). The deposit includes the validated corpus of 70 included cases, the citation network in GEXF and GraphML formats, all derived network metrics, and the complete analysis pipeline. The corpus was constructed from CourtListener (courtlistener.com), maintained by the Free Law Project.
+> All data and code supporting this analysis are publicly available at Zenodo (DOI: 10.5281/zenodo.20055182). The deposit includes the validated corpus of 63 included cases, the citation network in GEXF and GraphML formats, all derived network metrics, and the complete analysis pipeline. The corpus was constructed from CourtListener (courtlistener.com), maintained by the Free Law Project.
 
 ---
 
@@ -150,4 +154,4 @@ Code: MIT License.
 
 ## Key Finding for Verification
 
-Replicators running the full pipeline from scratch should obtain PageRank = 0.2020 for Zeran v. AOL (4th Cir. 1997), which ranks first among all 70 corpus nodes. The top-10 PageRank ranking is documented in `replication_guide.md` Section 13.
+Replicators running the full pipeline from scratch should obtain PageRank = 0.1999 for Zeran v. AOL (4th Cir. 1997), which ranks first among all 63 corpus nodes. The top-10 PageRank ranking is documented in `replication_guide.md` Section 13.

@@ -54,15 +54,6 @@
   <data key="d6">https://courtlistener.com/opinion/8437677/carafano-v-metrosplashcom-inc/</data>
   <data key="d7">8437677</data>
 </node>
-<node id="2996653">
-  <data key="d1">Does 1-46, John v. GTE Corporation</data>
-  <data key="d2">ca7</data>
-  <data key="d3">2003-10-21</data>
-  <data key="d4">0</data>
-  <data key="d5">[]</data>
-  <data key="d6">https://courtlistener.com/opinion/2996653/does-1-46-john-v-gte-corporation/</data>
-  <data key="d7">2996653</data>
-</node>
 <node id="783969">
   <data key="d1">John Doe and Other Members of the Football Team at Illinois State University v. Gte Corporation and Genuity Inc.</data>
   <data key="d2">ca7</data>
@@ -71,15 +62,6 @@
   <data key="d5">['347 F.3d 655', '2003 U.S. App. LEXIS 21345', '2003 WL 22389811']</data>
   <data key="d6">https://courtlistener.com/opinion/783969/john-doe-and-other-members-of-the-football-team-at-illinois-state/</data>
   <data key="d7">783969</data>
-</node>
-<node id="3035677">
-  <data key="d1">Yahoo Inc. v. La Ligue Contre Le Racisme Et L'Antisemitisme</data>
-  <data key="d2">ca9</data>
-  <data key="d3">2006-01-11</data>
-  <data key="d4">0</data>
-  <data key="d5">[]</data>
-  <data key="d6">https://courtlistener.com/opinion/3035677/yahoo-inc-v-la-ligue-contre-le-racisme-et-lantisemitisme/</data>
-  <data key="d7">3035677</data>
 </node>
 <node id="792900">
   <data key="d1">Yahoo! Inc. v. La Ligue Contre Le Racisme Et L'antisemitisme</data>
@@ -126,15 +108,6 @@
   <data key="d6">https://courtlistener.com/opinion/3048873/perfect-10-v-ccbill-llc/</data>
   <data key="d7">3048873</data>
 </node>
-<node id="3001422">
-  <data key="d1">Chicago Lawyers Comm v. Craigslist Inc</data>
-  <data key="d2">ca7</data>
-  <data key="d3">2008-03-14</data>
-  <data key="d4">0</data>
-  <data key="d5">[]</data>
-  <data key="d6">https://courtlistener.com/opinion/3001422/chicago-lawyers-comm-v-craigslist-inc/</data>
-  <data key="d7">3001422</data>
-</node>
 <node id="1193922">
   <data key="d1">Chicago Lawyers' Committee for Civil Rights Under Law, Inc. v. Craigslist, Inc.</data>
   <data key="d2">ca7</data>
@@ -180,15 +153,6 @@
   <data key="d6">https://courtlistener.com/opinion/1196509/barnes-v-yahoo-inc/</data>
   <data key="d7">1196509</data>
 </node>
-<node id="3064817">
-  <data key="d1">Zango Inc v. Kaspersky Lab Inc</data>
-  <data key="d2">ca9</data>
-  <data key="d3">2009-06-25</data>
-  <data key="d4">0</data>
-  <data key="d5">[]</data>
-  <data key="d6">https://courtlistener.com/opinion/3064817/zango-inc-v-kaspersky-lab-inc/</data>
-  <data key="d7">3064817</data>
-</node>
 <node id="1459477">
   <data key="d1">Zango, Inc. v. Kaspersky Lab, Inc.</data>
   <data key="d2">ca9</data>
@@ -216,15 +180,6 @@
   <data key="d6">https://courtlistener.com/opinion/1031139/nemet-chevrolet-ltd-v-consumeraffairs-com-inc/</data>
   <data key="d7">1031139</data>
 </node>
-<node id="3049067">
-  <data key="d1">Susan Johnson v. Elizabeth Arden</data>
-  <data key="d2">ca8</data>
-  <data key="d3">2010-08-04</data>
-  <data key="d4">0</data>
-  <data key="d5">[]</data>
-  <data key="d6">https://courtlistener.com/opinion/3049067/susan-johnson-v-elizabeth-arden/</data>
-  <data key="d7">3049067</data>
-</node>
 <node id="152236">
   <data key="d1">Johnson v. Arden</data>
   <data key="d2">ca8</data>
@@ -251,15 +206,6 @@
   <data key="d5">['410 U.S. App. D.C. 187', '753 F.3d 1354', '60 Communications Reg. (P&amp;F) 1112', '42 Media L. Rep. (BNA) 2118', '2014 WL 2619847', '2014 U.S. App. LEXIS 11003']</data>
   <data key="d6">https://courtlistener.com/opinion/2678314/larry-klayman-v-mark-zuckerberg/</data>
   <data key="d7">2678314</data>
-</node>
-<node id="2982343">
-  <data key="d1">Sarah Jones v. Dirty World Entertainment</data>
-  <data key="d2">ca6</data>
-  <data key="d3">2014-06-16</data>
-  <data key="d4">0</data>
-  <data key="d5">[]</data>
-  <data key="d6">https://courtlistener.com/opinion/2982343/sarah-jones-v-dirty-world-entertainment/</data>
-  <data key="d7">2982343</data>
 </node>
 <node id="2678463">
   <data key="d1">Jones v. Dirty World Entertainment Recordings LLC</data>
@@ -655,18 +601,6 @@
   <data key="d8">7</data>
 </edge>
 <edge source="8437677" target="782479"/>
-<edge source="2996653" target="159327">
-  <data key="d8">8</data>
-</edge>
-<edge source="2996653" target="748185">
-  <data key="d8">9</data>
-</edge>
-<edge source="2996653" target="780720">
-  <data key="d8">10</data>
-</edge>
-<edge source="2996653" target="782479">
-  <data key="d8">11</data>
-</edge>
 <edge source="783969" target="159327">
   <data key="d8">12</data>
 </edge>
@@ -678,9 +612,6 @@
 </edge>
 <edge source="783969" target="782479">
   <data key="d8">15</data>
-</edge>
-<edge source="3035677" target="782479">
-  <data key="d8">16</data>
 </edge>
 <edge source="792900" target="782479">
   <data key="d8">17</data>
@@ -739,24 +670,6 @@
   <data key="d8">34</data>
 </edge>
 <edge source="3048873" target="8437677"/>
-<edge source="3001422" target="159327">
-  <data key="d8">35</data>
-</edge>
-<edge source="3001422" target="748185">
-  <data key="d8">36</data>
-</edge>
-<edge source="3001422" target="780720">
-  <data key="d8">37</data>
-</edge>
-<edge source="3001422" target="782479">
-  <data key="d8">38</data>
-</edge>
-<edge source="3001422" target="783969">
-  <data key="d8">39</data>
-</edge>
-<edge source="3001422" target="796967">
-  <data key="d8">40</data>
-</edge>
 <edge source="1193922" target="159327">
   <data key="d8">41</data>
 </edge>
@@ -826,16 +739,6 @@
   <data key="d8">62</data>
 </edge>
 <edge source="1196509" target="8437677"/>
-<edge source="3064817" target="782479">
-  <data key="d8">63</data>
-</edge>
-<edge source="3064817" target="783969">
-  <data key="d8">64</data>
-</edge>
-<edge source="3064817" target="1301306">
-  <data key="d8">65</data>
-</edge>
-<edge source="3064817" target="8437677"/>
 <edge source="1459477" target="782479">
   <data key="d8">66</data>
 </edge>
@@ -881,33 +784,6 @@
   <data key="d8">79</data>
 </edge>
 <edge source="1031139" target="8437677"/>
-<edge source="3049067" target="77393">
-  <data key="d8">80</data>
-</edge>
-<edge source="3049067" target="159327">
-  <data key="d8">81</data>
-</edge>
-<edge source="3049067" target="748185">
-  <data key="d8">82</data>
-</edge>
-<edge source="3049067" target="780720">
-  <data key="d8">83</data>
-</edge>
-<edge source="3049067" target="782479">
-  <data key="d8">84</data>
-</edge>
-<edge source="3049067" target="796967">
-  <data key="d8">85</data>
-</edge>
-<edge source="3049067" target="1031139">
-  <data key="d8">86</data>
-</edge>
-<edge source="3049067" target="1193922">
-  <data key="d8">87</data>
-</edge>
-<edge source="3049067" target="1301306">
-  <data key="d8">88</data>
-</edge>
 <edge source="152236" target="77393">
   <data key="d8">89</data>
 </edge>
@@ -956,43 +832,6 @@
 <edge source="2678314" target="1301306">
   <data key="d8">104</data>
 </edge>
-<edge source="2982343" target="61739">
-  <data key="d8">105</data>
-</edge>
-<edge source="2982343" target="77393">
-  <data key="d8">106</data>
-</edge>
-<edge source="2982343" target="152236">
-  <data key="d8">107</data>
-</edge>
-<edge source="2982343" target="159327">
-  <data key="d8">108</data>
-</edge>
-<edge source="2982343" target="748185">
-  <data key="d8">109</data>
-</edge>
-<edge source="2982343" target="780720">
-  <data key="d8">110</data>
-</edge>
-<edge source="2982343" target="782479">
-  <data key="d8">111</data>
-</edge>
-<edge source="2982343" target="796967">
-  <data key="d8">112</data>
-</edge>
-<edge source="2982343" target="1031139">
-  <data key="d8">113</data>
-</edge>
-<edge source="2982343" target="1193922">
-  <data key="d8">114</data>
-</edge>
-<edge source="2982343" target="1301306">
-  <data key="d8">115</data>
-</edge>
-<edge source="2982343" target="1457289">
-  <data key="d8">116</data>
-</edge>
-<edge source="2982343" target="8437677"/>
 <edge source="2678463" target="61739">
   <data key="d8">117</data>
 </edge>

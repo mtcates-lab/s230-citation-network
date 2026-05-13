@@ -1,22 +1,22 @@
 {
   "full_corpus": {
-    "nodes": 69,
-    "edges": 357,
-    "density": 0.0761,
-    "gini": 0.5607,
-    "communities": 6,
-    "top_pagerank": 0.202
+    "nodes": 63,
+    "edges": 320,
+    "density": 0.0819,
+    "gini": 0.5467,
+    "communities": 7,
+    "top_pagerank": 0.1999
   },
   "restricted_corpus": {
-    "nodes": 62,
-    "edges": 329,
-    "density": 0.087,
-    "gini": 0.561,
-    "communities": 5,
-    "top_pagerank": 0.2081
+    "nodes": 56,
+    "edges": 292,
+    "density": 0.0948,
+    "gini": 0.5459,
+    "communities": 4,
+    "top_pagerank": 0.2063
   },
-  "pagerank_kendall_tau": 0.9387,
-  "community_nmi": 0.684,
+  "pagerank_kendall_tau": 0.9091,
+  "community_nmi": 0.5162,
   "excluded_cases": [
     {
       "cluster_id": "4660480",

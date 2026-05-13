@@ -90,7 +90,7 @@ python3 01_collect_data.py
 
 **Expected result:** Approximately 200-220 candidate cases depending on CourtListener database state at collection time. The original analysis retrieved 211 cases on 2026-04-10.
 
-**Note on reproducibility:** The exact case count may differ from the original analysis if CourtListener has added new opinions or corrected existing records since 2026-04-10. The validated corpus (70 cases) is included in the repository as a fixed reference point; replicators may use it directly to skip to Step 6.
+**Note on reproducibility:** The exact case count may differ from the original analysis if CourtListener has added new opinions or corrected existing records since 2026-04-10. The validated corpus (63 cases) is included in the repository as a fixed reference point; replicators may use it directly to skip to Step 6.
 
 ---
 
@@ -150,7 +150,7 @@ python3 02_build_graph.py
 
 **Output:** `data/s230_graph.gexf`, `data/s230_graph.graphml`
 
-**Expected result:** 70 nodes, 258 edges, confirmed DAG.
+**Expected result:** 63 nodes, 209 edges, confirmed DAG.
 
 ---
 
@@ -168,7 +168,7 @@ python3 10_merge_edges.py
 
 **Output:** `data/eyecite_results.json`, `data/eyecite_edges.json`, updated graph files
 
-**Expected result:** 360 edges after merge (246 from CourtListener cites field + 114 from Eyecite full-text extraction). Edge recall rate from CourtListener cites field: 65.0%.
+**Expected result:** 320 edges after merge (209 from CourtListener cites field + 111 from eyecite full-text extraction). Edge recall rate from CourtListener cites field: 65.3%.
 
 ---
 
@@ -182,7 +182,7 @@ Adds the manually coded metadata fields (primary_basis, holding_status, publicat
 python3 07_add_metadata.py
 ```
 
-Outcome coding is added separately via the OUTCOME_MAP in script `/tmp/add_outcomes_v2.py`. The outcome assignments for all 70 cases are documented in `data/case_outcomes_raw.json`.
+Outcome codings are embedded in each case record in `raw_data/s230_validated_20260411_030728.json` and compiled into `data/case_outcomes_raw.json`. To rebuild: `python3 fix_04_outcomes.py`.
 
 ---
 
@@ -198,7 +198,7 @@ python3 03_compute_metrics.py
 
 **Output:** `data/s230_metrics.csv`
 
-**Expected result:** 70 rows, one per case. Zeran v. AOL should have the highest PageRank (approximately 0.202).
+**Expected result:** 63 rows, one per case. Zeran v. AOL should have the highest PageRank (approximately 0.200).
 
 ---
 
@@ -213,9 +213,9 @@ python3 13_pagerank_robustness.py    # PageRank stability across damping factors
 ```
 
 **Expected results:**
-- Community stability: mean NMI = 0.686 (SD = 0.108)
-- PageRank robustness: mean Kendall τ = 0.997
-- Consensus partition: 19 communities at 80% threshold; 6 boundary cases
+- Community stability: mean NMI = 0.621 (SD = 0.121)
+- PageRank robustness: mean Kendall τ = 0.998
+- Consensus partition: 19 communities at 80% threshold; 4 boundary cases
 
 ---
 
@@ -234,11 +234,11 @@ python3 20_dual_corpus_analysis.py   # Full vs restricted corpus comparison
 ```
 
 **Expected results:**
-- Mutual information NMI: 0.122
-- Mean pairwise JSD between circuits: 0.65 (range 0.43-0.86)
+- Mutual information NMI: 0.119
+- Mean pairwise JSD between circuits: 0.66 bits (range 0.47-0.85)
 - Temporal JSD: peak divergence 2007; convergence 2008 after Roommates.com en banc
-- Corpus recall rate: 100% (95% Wilson CI: 0.959-1.000)
-- Dual corpus PageRank τ: 0.935
+- Corpus recall rate: 100% (95% Wilson CI: 0.942-1.000)
+- Dual corpus PageRank τ: 0.909
 
 ---
 
@@ -246,14 +246,14 @@ python3 20_dual_corpus_analysis.py   # Full vs restricted corpus comparison
 
 ```bash
 python3 21_resilience_simulation.py  # Network resilience under node removal
-python3 /tmp/save_dag_depth.py       # DAG hierarchical depth analysis
+python3 03_compute_metrics.py        # DAG depth computed as part of metrics
 python3 23_edge_sensitivity.py       # Edge sensitivity at 10%, 20%, 30% removal
 ```
 
 **Expected results:**
-- Resilience: 4.3% more vulnerable to targeted than random removal
-- DAG depth: max 16 levels; Spearman ρ = -0.965 with PageRank (p < 0.0001)
-- Edge sensitivity: PageRank τ = 0.901-0.953 at 10-30% removal; community NMI = 0.443-0.547
+- Resilience: 4.8% more vulnerable to targeted than random removal
+- DAG depth: max 16 levels; Spearman ρ = -0.964 with PageRank (p < 0.0001)
+- Edge sensitivity: PageRank τ = 0.876-0.951 at 10-30% removal; community NMI = 0.470-0.583
 
 ---
 
@@ -263,16 +263,16 @@ To verify your results match the original analysis, compare the top 10 cases by 
 
 | Rank | Case | PageRank |
 |------|------|---------|
-| 1 | Zeran v. AOL (CA4, 1997) | 0.2020 |
-| 2 | Ben Ezra v. AOL (CA10, 2000) | 0.0956 |
-| 3 | Batzel v. Smith (CA9, 2003) | 0.0605 |
+| 1 | Zeran v. AOL (CA4, 1997) | 0.1999 |
+| 2 | Ben Ezra v. AOL (CA10, 2000) | 0.0930 |
+| 3 | Batzel v. Smith (CA9, 2003) | 0.0549 |
 | 4 | Green v. AOL (CA3, 2003) | 0.0501 |
-| 5 | Fair Housing Council v. Roommates.com (CA9, 2008) | 0.0408 |
-| 6 | Carafano v. Metrosplash (CA9, 2003) | 0.0393 |
-| 7 | Doe v. Illinois Football Team (CA7, 2003) | 0.0309 |
-| 8 | Chicago Lawyers v. Craigslist (CA7, 2008) | 0.0271 |
-| 9 | Universal v. Lycos (CA1, 2007) | 0.0264 |
-| 10 | Barnes v. Yahoo (CA9, 2009) | 0.0244 |
+| 5 | Fair Housing Council v. Roommates.com (CA9, 2008) | 0.0430 |
+| 6 | Carafano v. Metrosplash (CA9, 2003) | 0.0398 |
+| 7 | Doe v. Illinois Football Team (CA7, 2003) | 0.0311 |
+| 8 | Chicago Lawyers v. Craigslist (CA7, 2008) | 0.0289 |
+| 9 | Universal v. Lycos (CA1, 2007) | 0.0272 |
+| 10 | Barnes v. Yahoo (CA9, 2009) | 0.0270 |
 
 Minor floating-point differences are expected. The rank ordering should be identical.
 
@@ -312,3 +312,19 @@ For questions about replication, contact mtcates@uga.edu.
 If you use this dataset or code in published research, please cite:
 
 > [Citation to be added upon publication]
+---
+
+## 15. Auxiliary Scripts (Not Part of Primary Replication Pipeline)
+
+The following scripts are included in the repository but are not required to
+reproduce the primary analysis results reported in the paper.
+
+**`06b_check_flagged.py`** — A diagnostic tool used during corpus construction
+to inspect cases that were automatically flagged as potential false positives by
+`06_validate_corpus.py`. Not part of the standard replication pipeline.
+
+**`22_hyperbolic_embedding.py`** — An exploratory analysis embedding the
+citation network in hyperbolic space (Poincaré disk model) to test whether
+hierarchical network structure is better captured in hyperbolic geometry than
+Euclidean space. Results were not included in the primary paper. Requires
+additional dependencies beyond `requirements.txt`.

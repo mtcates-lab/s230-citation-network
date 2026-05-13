@@ -278,9 +278,9 @@ The corpus construction began with automated retrieval from the CourtListener AP
 
 Each candidate was then subjected to full-text review against the operative inclusion criterion and the ten exclusion patterns. This review was conducted by a human annotator with legal expertise, examining the appellate holding of each case to determine whether § 230(c)(1), § 230(c)(2), § 230(f), or § 230(e) was substantively applied to determine the rights or liabilities of parties.
 
-Following review, 70 cases were confirmed as meeting the inclusion criterion.
+Following review, 63 cases were confirmed as meeting the inclusion criterion.
 
-**False positive rate: 66.8%** ((211 − 70) / 211 = 141 / 211 ≈ 0.668).
+**False positive rate: 70.1%** ((211 − 63) / 211 = 148 / 211 ≈ 0.701).
 
 This false positive rate has three implications:
 
@@ -296,13 +296,13 @@ This false positive rate has three implications:
 |---|---|
 | Cases retrieved from CourtListener | 211 |
 | Cases reviewed | 211 |
-| Cases included (meeting operative criterion) | 70 |
-| Cases excluded | 141 |
-| False positive rate | 66.8% |
-| Citation edges (CourtListener cites field) | 246 |
-| Citation edges (after Eyecite full-text extraction) | 360 |
+| Cases included (meeting operative criterion) | 63 |
+| Cases excluded | 148 |
+| False positive rate | 70.1% |
+| Citation edges (CourtListener cites field) | 209 |
+| Citation edges (after Eyecite full-text extraction) | 320 |
 | Edge recall rate (CourtListener cites field) | 65.0% |
-| Corpus recall rate (stratified sample, n=19) | 100% (95% CI: 0.959, 1.000) |
+| Corpus recall rate (stratified sample, n=20) | 100% (95% CI: 0.942, 1.000) |
 | Date of data pull | 2026-04-10 |
 | eyecite version | 2.6.0 |
 
@@ -310,11 +310,11 @@ This false positive rate has three implications:
 
 Cross-referencing our corpus against Ardia (2010) confirms that our corpus contains all published federal circuit opinions in Ardia's corpus that substantively applied § 230 in an appellate holding. Two cases in Ardia's corpus are absent from ours for methodologically justified reasons: *Almeida v. Amazon.com*, 456 F.3d 1316 (11th Cir. 2006), where the Eleventh Circuit dismissed on the merits without reaching § 230 (Pattern 3 exclusion), and the vacated *Roommates.com* panel opinion, 489 F.3d 921 (9th Cir. 2007), superseded by the en banc decision already in our corpus.
 
-Our corpus extends Ardia's temporal coverage by approximately fifteen years, adding 55 cases decided after his September 2009 cutoff. The methodological difference between Ardia's invocation-based inclusion criterion and our holding-based criterion accounts for the two-case discrepancy; this difference is a feature, not a limitation, and should be described explicitly in the paper.
+Our corpus extends Ardia's temporal coverage by approximately fifteen years, adding 48 cases decided after his September 2009 cutoff. The methodological difference between Ardia's invocation-based inclusion criterion and our holding-based criterion accounts for the two-case discrepancy; this difference is a feature, not a limitation, and should be described explicitly in the paper.
 
 ### 6.4 Implications for Publication
 
-The 66.8% false positive rate should be presented in the methods section and discussed in the results section as a substantive finding about the difference between citation-presence and doctrinal application in US internet law. Reviewers at JAIL and Scientific Data will recognize this as a genuine empirical contribution to the methodology of computational legal studies: we demonstrate that the set of cases citing § 230 and the set of § 230 doctrine cases are substantially different, and we provide a validated ten-pattern taxonomy explaining why.
+The 70.1% false positive rate should be presented in the methods section and discussed in the results section as a substantive finding about the difference between citation-presence and doctrinal application in US internet law. Reviewers at JAIL and Scientific Data will recognize this as a genuine empirical contribution to the methodology of computational legal studies: we demonstrate that the set of cases citing § 230 and the set of § 230 doctrine cases are substantially different, and we provide a validated ten-pattern taxonomy explaining why.
 
 The ten-pattern exclusion taxonomy is a reusable instrument for future empirical legal studies of statutory citation networks.
 
@@ -398,4 +398,46 @@ CourtListener cluster 77393. Confirmed as the same case cited by Ardia (2010) as
 
 ---
 
-*End of research_design.md — Active. Last updated: 2026-04-14.*
+### CBL-018 — *Perfect 10, Inc. v. CCBill LLC*, No. 04-57143 (9th Cir. 2007) (cluster 3048087)
+**Status:** REMOVED — DUPLICATE | **Date:** 2026-05-13
+CourtListener cluster 3048087 is the original March 28, 2007 panel opinion,
+superseded by the amended opinion of May 30, 2007 (cluster 3048873). Both
+entries share docket number 04-57143 and identical party names. Cluster 3048873
+retained as the canonical entry; cluster 3048087 removed. Follows the same
+deduplication rule applied in CBL-009 and CBL-016.
+
+### CBL-019 — Duplicate cluster removals (clusters 3035677, 2996653, 3001422, 3064817, 3049067, 2982343)
+**Status:** REMOVED — DUPLICATES | **Date:** 2026-05-13
+Six additional CourtListener cluster entries identified as duplicates of
+canonical corpus nodes by shared docket number and identical outbound citation
+sets. In each pair, the removed cluster has source=C (CourtListener-only),
+citeCount=0, and zero inbound citations in the network. The retained cluster
+carries the full citation record and all inbound edges. No citation information
+is lost by removal.
+
+| Removed | Retained | Case |
+|---|---|---|
+| 3035677 | 792900 | Yahoo! Inc. v. La Ligue Contre Le Racisme (9th Cir. en banc 2006) |
+| 2996653 | 783969 | John Doe v. GTE Corp. / Illinois Football Team (7th Cir. 2003) |
+| 3001422 | 1193922 | Chicago Lawyers Committee v. Craigslist (7th Cir. 2008) |
+| 3064817 | 1459477 | Zango, Inc. v. Kaspersky Lab (9th Cir. 2009) |
+| 3049067 | 152236 | Johnson v. Arden (8th Cir. 2010) |
+| 2982343 | 2678463 | Jones v. Dirty World Entertainment (6th Cir. 2014) |
+
+### CBL-020 — *United States v. EZ Lynk*, No. 24-2386 (2d Cir. 2025) (cluster 10657265)
+**Status:** INCLUDED | **Date:** 2026-05-13
+Second Circuit reversed district court dismissal. The district court held EZ
+Lynk immune under 230(c)(1) as an ICS provider for third-party software
+transmitted through its Auto Agent device and cloud platform. The Second Circuit
+held the government adequately alleged that EZ Lynk encouraged and materially
+contributed to the development and sale of Clean Air Act defeat device software,
+sufficient to deny 230(c)(1) immunity. Platform loses. One of the only
+published circuit opinions applying 230(c)(1) in federal regulatory enforcement
+(Clean Air Act) rather than civil tort or defamation. ICP analysis consistent
+with FTC v. Accusearch (10th Cir. 2009) and FTC v. LeadClick Media (2d Cir.
+2016). source=C, citeCount=0 — recent opinion not yet accumulated citations
+in CourtListener as of data collection date.
+
+---
+
+*End of research_design.md — Active. Last updated: 2026-05-13.*

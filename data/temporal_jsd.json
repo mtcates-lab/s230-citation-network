@@ -17,102 +17,102 @@
     },
     {
       "year": 2006,
-      "mean_jsd": 0.5411,
+      "mean_jsd": 0.5277,
       "n_circuits": 5
     },
     {
       "year": 2007,
-      "mean_jsd": 0.5959,
+      "mean_jsd": 0.592,
       "n_circuits": 6
     },
     {
       "year": 2008,
-      "mean_jsd": 0.568,
+      "mean_jsd": 0.5663,
       "n_circuits": 7
     },
     {
       "year": 2009,
-      "mean_jsd": 0.5847,
+      "mean_jsd": 0.5816,
       "n_circuits": 8
     },
     {
       "year": 2010,
-      "mean_jsd": 0.5972,
+      "mean_jsd": 0.5941,
       "n_circuits": 9
     },
     {
       "year": 2011,
-      "mean_jsd": 0.5972,
+      "mean_jsd": 0.5941,
       "n_circuits": 9
     },
     {
       "year": 2012,
-      "mean_jsd": 0.598,
+      "mean_jsd": 0.5949,
       "n_circuits": 9
     },
     {
       "year": 2013,
-      "mean_jsd": 0.598,
+      "mean_jsd": 0.5949,
       "n_circuits": 9
     },
     {
       "year": 2014,
-      "mean_jsd": 0.6263,
+      "mean_jsd": 0.6239,
       "n_circuits": 11
     },
     {
       "year": 2015,
-      "mean_jsd": 0.658,
+      "mean_jsd": 0.6569,
       "n_circuits": 12
     },
     {
       "year": 2016,
-      "mean_jsd": 0.6485,
-      "n_circuits": 12
-    },
-    {
-      "year": 2017,
       "mean_jsd": 0.6507,
       "n_circuits": 12
     },
     {
+      "year": 2017,
+      "mean_jsd": 0.6526,
+      "n_circuits": 12
+    },
+    {
       "year": 2018,
-      "mean_jsd": 0.6492,
+      "mean_jsd": 0.6508,
       "n_circuits": 12
     },
     {
       "year": 2019,
-      "mean_jsd": 0.6395,
+      "mean_jsd": 0.6405,
       "n_circuits": 12
     },
     {
       "year": 2020,
-      "mean_jsd": 0.6422,
+      "mean_jsd": 0.6475,
       "n_circuits": 12
     },
     {
       "year": 2021,
-      "mean_jsd": 0.6321,
+      "mean_jsd": 0.6378,
       "n_circuits": 12
     },
     {
       "year": 2022,
-      "mean_jsd": 0.6368,
+      "mean_jsd": 0.6423,
       "n_circuits": 12
     },
     {
       "year": 2023,
-      "mean_jsd": 0.6424,
+      "mean_jsd": 0.6496,
       "n_circuits": 12
     },
     {
       "year": 2024,
-      "mean_jsd": 0.6438,
+      "mean_jsd": 0.6499,
       "n_circuits": 12
     },
     {
       "year": 2025,
-      "mean_jsd": 0.6541,
+      "mean_jsd": 0.6604,
       "n_circuits": 12
     }
   ],
@@ -131,123 +131,123 @@
     },
     {
       "year": 2006,
-      "delta": 0.0219,
+      "delta": 0.0085,
       "prev_jsd": 0.5192,
-      "curr_jsd": 0.5411
+      "curr_jsd": 0.5277
     },
     {
       "year": 2007,
-      "delta": 0.0548,
-      "prev_jsd": 0.5411,
-      "curr_jsd": 0.5959
+      "delta": 0.0643,
+      "prev_jsd": 0.5277,
+      "curr_jsd": 0.592
     },
     {
       "year": 2008,
-      "delta": -0.0279,
-      "prev_jsd": 0.5959,
-      "curr_jsd": 0.568
+      "delta": -0.0257,
+      "prev_jsd": 0.592,
+      "curr_jsd": 0.5663
     },
     {
       "year": 2009,
-      "delta": 0.0167,
-      "prev_jsd": 0.568,
-      "curr_jsd": 0.5847
+      "delta": 0.0153,
+      "prev_jsd": 0.5663,
+      "curr_jsd": 0.5816
     },
     {
       "year": 2010,
       "delta": 0.0125,
-      "prev_jsd": 0.5847,
-      "curr_jsd": 0.5972
+      "prev_jsd": 0.5816,
+      "curr_jsd": 0.5941
     },
     {
       "year": 2011,
       "delta": 0.0,
-      "prev_jsd": 0.5972,
-      "curr_jsd": 0.5972
+      "prev_jsd": 0.5941,
+      "curr_jsd": 0.5941
     },
     {
       "year": 2012,
       "delta": 0.0008,
-      "prev_jsd": 0.5972,
-      "curr_jsd": 0.598
+      "prev_jsd": 0.5941,
+      "curr_jsd": 0.5949
     },
     {
       "year": 2013,
       "delta": 0.0,
-      "prev_jsd": 0.598,
-      "curr_jsd": 0.598
+      "prev_jsd": 0.5949,
+      "curr_jsd": 0.5949
     },
     {
       "year": 2014,
-      "delta": 0.0283,
-      "prev_jsd": 0.598,
-      "curr_jsd": 0.6263
+      "delta": 0.029,
+      "prev_jsd": 0.5949,
+      "curr_jsd": 0.6239
     },
     {
       "year": 2015,
-      "delta": 0.0317,
-      "prev_jsd": 0.6263,
-      "curr_jsd": 0.658
+      "delta": 0.033,
+      "prev_jsd": 0.6239,
+      "curr_jsd": 0.6569
     },
     {
       "year": 2016,
-      "delta": -0.0095,
-      "prev_jsd": 0.658,
-      "curr_jsd": 0.6485
-    },
-    {
-      "year": 2017,
-      "delta": 0.0022,
-      "prev_jsd": 0.6485,
+      "delta": -0.0062,
+      "prev_jsd": 0.6569,
       "curr_jsd": 0.6507
     },
     {
-      "year": 2018,
-      "delta": -0.0015,
+      "year": 2017,
+      "delta": 0.0019,
       "prev_jsd": 0.6507,
-      "curr_jsd": 0.6492
+      "curr_jsd": 0.6526
+    },
+    {
+      "year": 2018,
+      "delta": -0.0018,
+      "prev_jsd": 0.6526,
+      "curr_jsd": 0.6508
     },
     {
       "year": 2019,
-      "delta": -0.0097,
-      "prev_jsd": 0.6492,
-      "curr_jsd": 0.6395
+      "delta": -0.0103,
+      "prev_jsd": 0.6508,
+      "curr_jsd": 0.6405
     },
     {
       "year": 2020,
-      "delta": 0.0027,
-      "prev_jsd": 0.6395,
-      "curr_jsd": 0.6422
+      "delta": 0.007,
+      "prev_jsd": 0.6405,
+      "curr_jsd": 0.6475
     },
     {
       "year": 2021,
-      "delta": -0.0101,
-      "prev_jsd": 0.6422,
-      "curr_jsd": 0.6321
+      "delta": -0.0097,
+      "prev_jsd": 0.6475,
+      "curr_jsd": 0.6378
     },
     {
       "year": 2022,
-      "delta": 0.0047,
-      "prev_jsd": 0.6321,
-      "curr_jsd": 0.6368
+      "delta": 0.0045,
+      "prev_jsd": 0.6378,
+      "curr_jsd": 0.6423
     },
     {
       "year": 2023,
-      "delta": 0.0056,
-      "prev_jsd": 0.6368,
-      "curr_jsd": 0.6424
+      "delta": 0.0073,
+      "prev_jsd": 0.6423,
+      "curr_jsd": 0.6496
     },
     {
       "year": 2024,
-      "delta": 0.0014,
-      "prev_jsd": 0.6424,
-      "curr_jsd": 0.6438
+      "delta": 0.0003,
+      "prev_jsd": 0.6496,
+      "curr_jsd": 0.6499
     },
     {
       "year": 2025,
-      "delta": 0.0103,
-      "prev_jsd": 0.6438,
-      "curr_jsd": 0.6541
+      "delta": 0.0105,
+      "prev_jsd": 0.6499,
+      "curr_jsd": 0.6604
     }
   ],
   "largest_divergence_years": [
@@ -271,55 +271,55 @@
       },
       {
         "year": 2006,
-        "jsd": 0.1562
+        "jsd": 0.1151
       },
       {
         "year": 2007,
-        "jsd": 0.4012
+        "jsd": 0.4031
       },
       {
         "year": 2008,
-        "jsd": 0.3472
+        "jsd": 0.3478
       },
       {
         "year": 2009,
-        "jsd": 0.477
+        "jsd": 0.4583
       },
       {
         "year": 2010,
-        "jsd": 0.477
+        "jsd": 0.4583
       },
       {
         "year": 2011,
-        "jsd": 0.477
+        "jsd": 0.4583
       },
       {
         "year": 2012,
-        "jsd": 0.4892
+        "jsd": 0.4733
       },
       {
         "year": 2013,
-        "jsd": 0.4892
+        "jsd": 0.4733
       },
       {
         "year": 2014,
-        "jsd": 0.5114
+        "jsd": 0.5002
       },
       {
         "year": 2015,
-        "jsd": 0.4759
+        "jsd": 0.4637
       },
       {
         "year": 2016,
-        "jsd": 0.4773
+        "jsd": 0.4801
       },
       {
         "year": 2017,
-        "jsd": 0.4773
+        "jsd": 0.4801
       },
       {
         "year": 2018,
-        "jsd": 0.4773
+        "jsd": 0.4801
       },
       {
         "year": 2019,
@@ -331,213 +331,213 @@
       },
       {
         "year": 2021,
-        "jsd": 0.537
+        "jsd": 0.5382
       },
       {
         "year": 2022,
-        "jsd": 0.5309
+        "jsd": 0.5262
       },
       {
         "year": 2023,
-        "jsd": 0.5631
+        "jsd": 0.5723
       },
       {
         "year": 2024,
-        "jsd": 0.576
+        "jsd": 0.5848
       },
       {
         "year": 2025,
-        "jsd": 0.6087
+        "jsd": 0.6163
       }
     ],
     "ca5-ca9": [
       {
         "year": 2008,
-        "jsd": 0.3888
+        "jsd": 0.39
       },
       {
         "year": 2009,
-        "jsd": 0.4757
+        "jsd": 0.4583
       },
       {
         "year": 2010,
-        "jsd": 0.4757
+        "jsd": 0.4583
       },
       {
         "year": 2011,
-        "jsd": 0.4757
+        "jsd": 0.4583
       },
       {
         "year": 2012,
-        "jsd": 0.4879
+        "jsd": 0.4733
       },
       {
         "year": 2013,
-        "jsd": 0.4879
+        "jsd": 0.4733
       },
       {
         "year": 2014,
-        "jsd": 0.5103
+        "jsd": 0.5002
       },
       {
         "year": 2015,
-        "jsd": 0.5103
+        "jsd": 0.5002
       },
       {
         "year": 2016,
-        "jsd": 0.594
+        "jsd": 0.5861
       },
       {
         "year": 2017,
-        "jsd": 0.594
+        "jsd": 0.5861
       },
       {
         "year": 2018,
-        "jsd": 0.594
+        "jsd": 0.5861
       },
       {
         "year": 2019,
-        "jsd": 0.6305
+        "jsd": 0.6275
       },
       {
         "year": 2020,
-        "jsd": 0.6305
+        "jsd": 0.6275
       },
       {
         "year": 2021,
-        "jsd": 0.6401
+        "jsd": 0.6382
       },
       {
         "year": 2022,
-        "jsd": 0.6462
+        "jsd": 0.6448
       },
       {
         "year": 2023,
-        "jsd": 0.6951
+        "jsd": 0.6958
       },
       {
         "year": 2024,
-        "jsd": 0.64
+        "jsd": 0.6355
       },
       {
         "year": 2025,
-        "jsd": 0.6409
+        "jsd": 0.6378
       }
     ],
     "ca9-ca4": [
       {
         "year": 2009,
-        "jsd": 0.5175
+        "jsd": 0.5178
       },
       {
         "year": 2010,
-        "jsd": 0.5175
+        "jsd": 0.5178
       },
       {
         "year": 2011,
-        "jsd": 0.5175
+        "jsd": 0.5178
       },
       {
         "year": 2012,
-        "jsd": 0.5108
+        "jsd": 0.5074
       },
       {
         "year": 2013,
-        "jsd": 0.5108
+        "jsd": 0.5074
       },
       {
         "year": 2014,
-        "jsd": 0.5174
+        "jsd": 0.5138
       },
       {
         "year": 2015,
-        "jsd": 0.5174
+        "jsd": 0.5138
       },
       {
         "year": 2016,
-        "jsd": 0.5557
+        "jsd": 0.5565
       },
       {
         "year": 2017,
-        "jsd": 0.5557
+        "jsd": 0.5565
       },
       {
         "year": 2018,
-        "jsd": 0.5557
+        "jsd": 0.5565
       },
       {
         "year": 2019,
-        "jsd": 0.5639
+        "jsd": 0.5604
       },
       {
         "year": 2020,
-        "jsd": 0.5639
+        "jsd": 0.5604
       },
       {
         "year": 2021,
-        "jsd": 0.5761
+        "jsd": 0.574
       },
       {
         "year": 2022,
-        "jsd": 0.5891
+        "jsd": 0.591
       },
       {
         "year": 2023,
-        "jsd": 0.5842
+        "jsd": 0.5871
       },
       {
         "year": 2024,
-        "jsd": 0.5964
+        "jsd": 0.5997
       },
       {
         "year": 2025,
-        "jsd": 0.6704
+        "jsd": 0.6737
       }
     ],
     "ca2-ca9": [
       {
         "year": 2015,
-        "jsd": 0.8119
+        "jsd": 0.7926
       },
       {
         "year": 2016,
-        "jsd": 0.6605
+        "jsd": 0.6385
       },
       {
         "year": 2017,
-        "jsd": 0.6605
+        "jsd": 0.6385
       },
       {
         "year": 2018,
-        "jsd": 0.6605
+        "jsd": 0.6385
       },
       {
         "year": 2019,
-        "jsd": 0.595
+        "jsd": 0.5743
       },
       {
         "year": 2020,
-        "jsd": 0.595
+        "jsd": 0.5743
       },
       {
         "year": 2021,
-        "jsd": 0.5641
+        "jsd": 0.541
       },
       {
         "year": 2022,
-        "jsd": 0.5503
+        "jsd": 0.5266
       },
       {
         "year": 2023,
-        "jsd": 0.4867
+        "jsd": 0.4606
       },
       {
         "year": 2024,
-        "jsd": 0.5032
+        "jsd": 0.4803
       },
       {
         "year": 2025,
-        "jsd": 0.5475
+        "jsd": 0.5301
       }
     ]
   }

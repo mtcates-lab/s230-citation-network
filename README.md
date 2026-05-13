@@ -4,26 +4,26 @@ A computational analysis of the federal appellate citation network for 47 U.S.C.
 
 ## Overview
 
-This repository contains the data, code, and documentation for a citation network analysis of 70 validated federal circuit court and Supreme Court opinions applying § 230(c). The analysis applies PageRank centrality, Leiden community detection, Jensen-Shannon divergence, and temporal network analysis to characterize the structure and evolution of § 230 doctrine.
+This repository contains the data, code, and documentation for a citation network analysis of 63 validated federal circuit court and Supreme Court opinions applying § 230(c). The analysis applies PageRank centrality, Leiden community detection, Jensen-Shannon divergence, and temporal network analysis to characterize the structure and evolution of § 230 doctrine.
 
 ## Key findings
 
-- Zeran v. AOL (4th Cir. 1997) holds the highest PageRank in every annual 
-  snapshot from 1997 through 2025 (PR = 0.202; α = 0.85)
-- Five structural clusters identified via Leiden community detection on the 
-  undirected citation projection (modularity Q = 0.238; mean NMI = 0.686 
-  across 100 runs), corresponding to recognizable doctrinal traditions 
-  confirmed by legal expert review
-- Platform win rate under § 230 declined from 83% (2000-2004, n=6) to 41% 
-  (2020-2024, n=17); temporal trend is consistent with increasing judicial 
+- Zeran v. AOL (4th Cir. 1997) holds the highest PageRank in every annual
+  snapshot from 1997 through 2025 (PR = 0.200; α = 0.85)
+- Seven structural clusters identified via Leiden community detection on the
+  undirected citation projection (mean NMI = 0.621 across 100 runs),
+  corresponding to recognizable doctrinal traditions confirmed by legal
+  expert review
+- Platform win rate under § 230 declined from 80% (2000-2004, n=5) to 38%
+  (2020-2024, n=16); temporal trend is consistent with increasing judicial
   skepticism toward broad immunity claims
-- Mean pairwise Jensen-Shannon divergence between circuits: 0.65 bits 
-  (base 2; range 0.43-0.86)
-- DAG hierarchical level correlates with PageRank at Spearman ρ = -0.840 
-  among cases with at least one inbound citation (n=41, p < 0.0001); 
-  full corpus ρ = -0.965 is inflated by 29 dangling nodes sharing 
+- Mean pairwise Jensen-Shannon divergence between circuits: 0.66 bits
+  (base 2; range 0.47-0.85)
+- DAG hierarchical level correlates with PageRank at Spearman ρ = -0.838
+  among cases with at least one inbound citation (n=41, p < 0.0001);
+  full corpus ρ = -0.964 is inflated by 22 dangling nodes sharing
   identical PageRank floor values
-- False positive rate in automated CourtListener retrieval: 66.8% (141/211 
+- False positive rate in automated CourtListener retrieval: 70.1% (148/211
   candidates excluded after review)
 
 ## Repository structure
@@ -35,7 +35,7 @@ This repository contains the data, code, and documentation for a citation networ
 ├── codebook.md             # Field-level documentation for all data files
 ├── replication_guide.md    # Step-by-step reproduction instructions
 ├── raw_data/
-│   └── s230_validated_20260411_030728.json   # Validated corpus (70 cases)
+│   └── s230_validated_20260411_030728.json   # Validated corpus (63 cases)
 ├── data/
 │   ├── s230_graph.gexf           # Citation graph (Gephi/NetworkX)
 │   ├── s230_graph.graphml        # Citation graph (GraphML)
@@ -56,7 +56,7 @@ python3 02_build_graph.py && python3 10_merge_edges.py && python3 03_compute_met
 
 ## Data
 
-The validated corpus and graph files are deposited at Zenodo: [DOI to be added]
+The validated corpus and graph files are deposited at Zenodo: https://doi.org/10.5281/zenodo.20055182
 
 ## Citation
 

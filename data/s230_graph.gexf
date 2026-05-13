@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-05-04">
+  <meta lastmodifieddate="2026-05-13">
     <creator>NetworkX 3.6.1</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
@@ -63,16 +63,6 @@
           <attvalue for="5" value="https://courtlistener.com/opinion/8437677/carafano-v-metrosplashcom-inc/" />
         </attvalues>
       </node>
-      <node id="2996653" label="2996653">
-        <attvalues>
-          <attvalue for="0" value="Does 1-46, John v. GTE Corporation" />
-          <attvalue for="1" value="ca7" />
-          <attvalue for="2" value="2003-10-21" />
-          <attvalue for="3" value="0" />
-          <attvalue for="4" value="[]" />
-          <attvalue for="5" value="https://courtlistener.com/opinion/2996653/does-1-46-john-v-gte-corporation/" />
-        </attvalues>
-      </node>
       <node id="783969" label="783969">
         <attvalues>
           <attvalue for="0" value="John Doe and Other Members of the Football Team at Illinois State University v. Gte Corporation and Genuity Inc." />
@@ -81,16 +71,6 @@
           <attvalue for="3" value="145" />
           <attvalue for="4" value="['347 F.3d 655', '2003 U.S. App. LEXIS 21345', '2003 WL 22389811']" />
           <attvalue for="5" value="https://courtlistener.com/opinion/783969/john-doe-and-other-members-of-the-football-team-at-illinois-state/" />
-        </attvalues>
-      </node>
-      <node id="3035677" label="3035677">
-        <attvalues>
-          <attvalue for="0" value="Yahoo Inc. v. La Ligue Contre Le Racisme Et L'Antisemitisme" />
-          <attvalue for="1" value="ca9" />
-          <attvalue for="2" value="2006-01-11" />
-          <attvalue for="3" value="0" />
-          <attvalue for="4" value="[]" />
-          <attvalue for="5" value="https://courtlistener.com/opinion/3035677/yahoo-inc-v-la-ligue-contre-le-racisme-et-lantisemitisme/" />
         </attvalues>
       </node>
       <node id="792900" label="792900">
@@ -143,16 +123,6 @@
           <attvalue for="5" value="https://courtlistener.com/opinion/3048873/perfect-10-v-ccbill-llc/" />
         </attvalues>
       </node>
-      <node id="3001422" label="3001422">
-        <attvalues>
-          <attvalue for="0" value="Chicago Lawyers Comm v. Craigslist Inc" />
-          <attvalue for="1" value="ca7" />
-          <attvalue for="2" value="2008-03-14" />
-          <attvalue for="3" value="0" />
-          <attvalue for="4" value="[]" />
-          <attvalue for="5" value="https://courtlistener.com/opinion/3001422/chicago-lawyers-comm-v-craigslist-inc/" />
-        </attvalues>
-      </node>
       <node id="1193922" label="1193922">
         <attvalues>
           <attvalue for="0" value="Chicago Lawyers' Committee for Civil Rights Under Law, Inc. v. Craigslist, Inc." />
@@ -203,16 +173,6 @@
           <attvalue for="5" value="https://courtlistener.com/opinion/1196509/barnes-v-yahoo-inc/" />
         </attvalues>
       </node>
-      <node id="3064817" label="3064817">
-        <attvalues>
-          <attvalue for="0" value="Zango Inc v. Kaspersky Lab Inc" />
-          <attvalue for="1" value="ca9" />
-          <attvalue for="2" value="2009-06-25" />
-          <attvalue for="3" value="0" />
-          <attvalue for="4" value="[]" />
-          <attvalue for="5" value="https://courtlistener.com/opinion/3064817/zango-inc-v-kaspersky-lab-inc/" />
-        </attvalues>
-      </node>
       <node id="1459477" label="1459477">
         <attvalues>
           <attvalue for="0" value="Zango, Inc. v. Kaspersky Lab, Inc." />
@@ -243,16 +203,6 @@
           <attvalue for="5" value="https://courtlistener.com/opinion/1031139/nemet-chevrolet-ltd-v-consumeraffairs-com-inc/" />
         </attvalues>
       </node>
-      <node id="3049067" label="3049067">
-        <attvalues>
-          <attvalue for="0" value="Susan Johnson v. Elizabeth Arden" />
-          <attvalue for="1" value="ca8" />
-          <attvalue for="2" value="2010-08-04" />
-          <attvalue for="3" value="0" />
-          <attvalue for="4" value="[]" />
-          <attvalue for="5" value="https://courtlistener.com/opinion/3049067/susan-johnson-v-elizabeth-arden/" />
-        </attvalues>
-      </node>
       <node id="152236" label="152236">
         <attvalues>
           <attvalue for="0" value="Johnson v. Arden" />
@@ -281,16 +231,6 @@
           <attvalue for="3" value="88" />
           <attvalue for="4" value="['410 U.S. App. D.C. 187', '753 F.3d 1354', '60 Communications Reg. (P&amp;F) 1112', '42 Media L. Rep. (BNA) 2118', '2014 WL 2619847', '2014 U.S. App. LEXIS 11003']" />
           <attvalue for="5" value="https://courtlistener.com/opinion/2678314/larry-klayman-v-mark-zuckerberg/" />
-        </attvalues>
-      </node>
-      <node id="2982343" label="2982343">
-        <attvalues>
-          <attvalue for="0" value="Sarah Jones v. Dirty World Entertainment" />
-          <attvalue for="1" value="ca6" />
-          <attvalue for="2" value="2014-06-16" />
-          <attvalue for="3" value="0" />
-          <attvalue for="4" value="[]" />
-          <attvalue for="5" value="https://courtlistener.com/opinion/2982343/sarah-jones-v-dirty-world-entertainment/" />
         </attvalues>
       </node>
       <node id="2678463" label="2678463">
@@ -714,15 +654,10 @@
       <edge source="8437677" target="748185" id="6" />
       <edge source="8437677" target="780720" id="7" />
       <edge source="8437677" target="782479" id="244" />
-      <edge source="2996653" target="159327" id="8" />
-      <edge source="2996653" target="748185" id="9" />
-      <edge source="2996653" target="780720" id="10" />
-      <edge source="2996653" target="782479" id="11" />
       <edge source="783969" target="159327" id="12" />
       <edge source="783969" target="748185" id="13" />
       <edge source="783969" target="780720" id="14" />
       <edge source="783969" target="782479" id="15" />
-      <edge source="3035677" target="782479" id="16" />
       <edge source="792900" target="782479" id="17" />
       <edge source="77393" target="159327" id="18" />
       <edge source="77393" target="748185" id="19" />
@@ -744,12 +679,6 @@
       <edge source="3048873" target="782479" id="33" />
       <edge source="3048873" target="796967" id="34" />
       <edge source="3048873" target="8437677" id="247" />
-      <edge source="3001422" target="159327" id="35" />
-      <edge source="3001422" target="748185" id="36" />
-      <edge source="3001422" target="780720" id="37" />
-      <edge source="3001422" target="782479" id="38" />
-      <edge source="3001422" target="783969" id="39" />
-      <edge source="3001422" target="796967" id="40" />
       <edge source="1193922" target="159327" id="41" />
       <edge source="1193922" target="748185" id="42" />
       <edge source="1193922" target="780720" id="43" />
@@ -775,10 +704,6 @@
       <edge source="1196509" target="1193922" id="61" />
       <edge source="1196509" target="1301306" id="62" />
       <edge source="1196509" target="8437677" id="250" />
-      <edge source="3064817" target="782479" id="63" />
-      <edge source="3064817" target="783969" id="64" />
-      <edge source="3064817" target="1301306" id="65" />
-      <edge source="3064817" target="8437677" id="251" />
       <edge source="1459477" target="782479" id="66" />
       <edge source="1459477" target="783969" id="67" />
       <edge source="1459477" target="1301306" id="68" />
@@ -796,15 +721,6 @@
       <edge source="1031139" target="1193922" id="78" />
       <edge source="1031139" target="1301306" id="79" />
       <edge source="1031139" target="8437677" id="254" />
-      <edge source="3049067" target="77393" id="80" />
-      <edge source="3049067" target="159327" id="81" />
-      <edge source="3049067" target="748185" id="82" />
-      <edge source="3049067" target="780720" id="83" />
-      <edge source="3049067" target="782479" id="84" />
-      <edge source="3049067" target="796967" id="85" />
-      <edge source="3049067" target="1031139" id="86" />
-      <edge source="3049067" target="1193922" id="87" />
-      <edge source="3049067" target="1301306" id="88" />
       <edge source="152236" target="77393" id="89" />
       <edge source="152236" target="159327" id="90" />
       <edge source="152236" target="748185" id="91" />
@@ -821,19 +737,6 @@
       <edge source="2678314" target="796967" id="102" />
       <edge source="2678314" target="1031139" id="103" />
       <edge source="2678314" target="1301306" id="104" />
-      <edge source="2982343" target="61739" id="105" />
-      <edge source="2982343" target="77393" id="106" />
-      <edge source="2982343" target="152236" id="107" />
-      <edge source="2982343" target="159327" id="108" />
-      <edge source="2982343" target="748185" id="109" />
-      <edge source="2982343" target="780720" id="110" />
-      <edge source="2982343" target="782479" id="111" />
-      <edge source="2982343" target="796967" id="112" />
-      <edge source="2982343" target="1031139" id="113" />
-      <edge source="2982343" target="1193922" id="114" />
-      <edge source="2982343" target="1301306" id="115" />
-      <edge source="2982343" target="1457289" id="116" />
-      <edge source="2982343" target="8437677" id="255" />
       <edge source="2678463" target="61739" id="117" />
       <edge source="2678463" target="77393" id="118" />
       <edge source="2678463" target="152236" id="119" />
