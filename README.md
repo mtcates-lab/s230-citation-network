@@ -56,7 +56,7 @@ python3 02_build_graph.py && python3 10_merge_edges.py && python3 03_compute_met
 
 ## Data
 
-The validated corpus and graph files are deposited at Zenodo: https://doi.org/10.5281/zenodo.20055182
+The validated corpus and graph files are deposited at Zenodo: https://doi.org/10.5281/zenodo.20160467
 
 ## Citation
 

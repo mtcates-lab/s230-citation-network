@@ -3,7 +3,7 @@
 
 **Version:** 1.0.0  
 **Date of data collection:** 2026-04-10  
-**Zenodo DOI:** 10.5281/zenodo.20055182  
+**Zenodo DOI:** 10.5281/zenodo.20160467  
 **GitHub repository:** https://github.com/mtcates-lab/s230-citation-network  
 **Contact:** mtcates@uga.edu
 
@@ -133,7 +133,7 @@ All scripts are numbered in execution order. See `replication_guide.md` for full
 
 ## How to Cite This Deposit
 
-> Cates, M. (2026). *Citation Network of Section 230 of the Communications Decency Act: A Validated Corpus of Published Federal Circuit Appellate Holdings, 1997–2025* (Version 1.0.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.20055182
+> Cates, M. (2026). *Citation Network of Section 230 of the Communications Decency Act: A Validated Corpus of Published Federal Circuit Appellate Holdings, 1997–2025* (Version 1.0.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.20160467
 
 ---
 
@@ -141,7 +141,7 @@ All scripts are numbered in execution order. See `replication_guide.md` for full
 
 For use in papers citing this dataset:
 
-> All data and code supporting this analysis are publicly available at Zenodo (DOI: 10.5281/zenodo.20055182). The deposit includes the validated corpus of 63 included cases, the citation network in GEXF and GraphML formats, all derived network metrics, and the complete analysis pipeline. The corpus was constructed from CourtListener (courtlistener.com), maintained by the Free Law Project.
+> All data and code supporting this analysis are publicly available at Zenodo (DOI: 10.5281/zenodo.20160467). The deposit includes the validated corpus of 63 included cases, the citation network in GEXF and GraphML formats, all derived network metrics, and the complete analysis pipeline. The corpus was constructed from CourtListener (courtlistener.com), maintained by the Free Law Project.
 
 ---
 
