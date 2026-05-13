@@ -19,9 +19,9 @@ This repository contains the data, code, and documentation for a citation networ
   skepticism toward broad immunity claims
 - Mean pairwise Jensen-Shannon divergence between circuits: 0.66 bits
   (base 2; range 0.47-0.85)
-- DAG hierarchical level correlates with PageRank at Spearman ρ = -0.838
+- DAG hierarchical level correlates with PageRank at Spearman ρ = -0.666
   among cases with at least one inbound citation (n=41, p < 0.0001);
-  full corpus ρ = -0.964 is inflated by 22 dangling nodes sharing
+  full corpus ρ = -0.460 is inflated by 22 dangling nodes sharing
   identical PageRank floor values
 - False positive rate in automated CourtListener retrieval: 70.1% (148/211
   candidates excluded after review)

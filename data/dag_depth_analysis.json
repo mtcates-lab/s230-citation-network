@@ -1,10 +1,10 @@
 {
   "max_dag_depth": 16,
-  "spearman_correlation_level_pagerank_full": -0.9637,
+  "spearman_correlation_level_pagerank_full": -0.4599,
   "spearman_pvalue_full": "< 0.0001",
-  "spearman_correlation_level_pagerank_integrated": -0.8381,
+  "spearman_correlation_level_pagerank_integrated": -0.6659,
   "spearman_pvalue_integrated": "< 0.0001",
   "n_integrated_nodes": 41,
-  "n_dangling_nodes": 28,
-  "note": "Level defined as distance from corpus root (Zeran at level 0). Positive raw correlation (-0.964 full, -0.838 integrated) reflects inverted level convention in computation; signs corrected to match definition. Primary finding restricted to integrated nodes (in_degree > 0). Full corpus correlation inflated by 28 dangling nodes sharing identical PageRank floor."
+  "n_dangling_nodes": 22,
+  "note": "Level defined as longest path from node to any sink (most-cited case). Dangling nodes have in_degree=0. Integrated nodes have in_degree > 0. Full corpus correlation includes all 63 nodes; integrated correlation restricted to 41 nodes with at least one inbound citation."
 }

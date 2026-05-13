@@ -220,7 +220,7 @@ Community labels (from expert validation, see data/community_stability.json and 
 | 3 | ICP status, immunity exceptions, and platform-as-facilitator | 13 |
 | 4 | Structural isolate: M.H. v. Omegle (FOSTA/design liability bridge node) | 1 |
 
-Community stability: mean NMI = 0.686 (SD = 0.108) across 100 Leiden runs with different random seeds. Modularity Q = 0.238. See script 11_community_stability.py.
+Community stability: mean NMI = 0.621 (SD = 0.121) across 100 Leiden runs with different random seeds. Modularity Q = 0.238. See script 11_community_stability.py.
 
 ---
 

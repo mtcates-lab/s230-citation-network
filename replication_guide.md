@@ -134,7 +134,7 @@ The original analysis identified and removed four duplicate entries: Zeran (clus
 The validated corpus used in the original analysis is provided as:
 `raw_data/s230_validated_20260411_030728.json`
 
-This file contains 70 cases and is the starting point for all downstream analysis. Replicators who wish to use the original validated corpus rather than constructing their own may skip Steps 4 and 5.
+This file contains 63 cases and is the starting point for all downstream analysis. Replicators who wish to use the original validated corpus rather than constructing their own may skip Steps 4 and 5.
 
 ---
 
@@ -252,7 +252,7 @@ python3 23_edge_sensitivity.py       # Edge sensitivity at 10%, 20%, 30% removal
 
 **Expected results:**
 - Resilience: 4.8% more vulnerable to targeted than random removal
-- DAG depth: max 16 levels; Spearman ρ = -0.964 with PageRank (p < 0.0001)
+- DAG depth: max 16 levels; Spearman ρ = -0.460 full corpus, ρ = -0.666 integrated nodes (n=41) (p < 0.0001)
 - Edge sensitivity: PageRank τ = 0.876-0.951 at 10-30% removal; community NMI = 0.470-0.583
 
 ---

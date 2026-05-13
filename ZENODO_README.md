@@ -77,7 +77,7 @@ Lookup table mapping citation strings to corpus cluster IDs, used for edge resol
 
 ### Analysis output files
 
-**`data/community_stability.json`** — NMI stability across 100 Leiden runs (mean NMI = 0.686, SD = 0.108)  
+**`data/community_stability.json`** — NMI stability across 100 Leiden runs (mean NMI = 0.621, SD = 0.121)  
 **`data/consensus_partition.json`** — Consensus communities at 80% co-assignment threshold (19 communities, 6 boundary cases)  
 **`data/pagerank_robustness.json`** — PageRank stability across damping factors α = 0.70–0.95 (mean Kendall τ = 0.997)  
 **`data/mutual_information.json`** — Mutual information between community membership and immunity outcome (NMI = 0.122)  
@@ -86,7 +86,7 @@ Lookup table mapping citation strings to corpus cluster IDs, used for edge resol
 **`data/temporal_snapshots.json`** / **`data/temporal_snapshots.csv`** — Annual network metrics snapshots  
 **`data/recall_estimation.json`** — Corpus recall estimation with Wilson confidence intervals  
 **`data/recall_sample.json`** — Stratified sample of 19 cases used for recall estimation  
-**`data/dual_corpus_analysis.json`** — Comparison of full corpus vs. restricted corpus (PageRank τ = 0.935)  
+**`data/dual_corpus_analysis.json`** — Comparison of full corpus vs. restricted corpus (PageRank τ = 0.909)  
 **`data/resilience_simulation.json`** — Network resilience under targeted vs. random node removal  
 **`data/dag_depth_analysis.json`** — DAG hierarchical depth analysis (max depth 16; Spearman ρ = −0.965 with PageRank)  
 **`data/edge_sensitivity.json`** — Edge sensitivity at 10%, 20%, 30% removal rates  
